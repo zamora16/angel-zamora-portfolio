@@ -1,0 +1,802 @@
+{
+  "nav": {
+    "home": "Home",
+    "research": "Research",
+    "publications": "Publications",
+    "conferences": "Conferences",
+    "teaching": "Teaching",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "home": {
+    "name": "Ángel Zamora Martínez",
+    "title": "PhD in Psychology · Data Analyst & Researcher",
+    "tagline": "Researcher and data analyst — turning health and behavioral data into actionable evidence.",
+    "affiliation": "Universidad de Sevilla · DALIA Project",
+    "buttons": {
+      "publications": "View Publications",
+      "projects": "View Projects"
+    },
+    "about": {
+      "title": "About me",
+      "paragraphs": [
+        "PhD in Psychology from the Universitat de València (thesis defended December 16, 2025), awarded the highest distinction of Summa Cum Laude with International Mention for the dissertation \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
+        "My predoctoral training was funded by an FPU grant (FPU20/05798, Ministry of Science, Innovation and Universities, 2021-2025) within the R&D project \"Changing Low Back Pain Employing Virtual Enhanced Reality,\" led by Dr. Rosa Mª Baños Rivera. Since February 2026 I have been a contracted researcher on the DALIA project at the Universidad de Sevilla (PI: Octavio Rivera Romero), on data-driven personalization of a digital health solution for family caregivers of children with chronic conditions.",
+        "I am the author of 10 articles in JCR-indexed journals (mostly Q1), first author on 2 of them, and I have contributed to more than 20 national and international conferences — including presentations in the United States, Canada, France, the Netherlands and Spain.",
+        "I combine this research profile with an uncommon technical background for psychology: I hold a Higher Technician qualification in Multiplatform Application Development (2,000h, CEEDCV) and specific training in data analysis (R, Python, SQL, Tableau, machine learning). I built AulaMetrics, a full Odoo/Python/PostgreSQL platform for psychosocial assessment in schools, validated with real school counsellors. I completed international research stays at the Université du Québec en Outaouais (Canada) and Universidade Lusófona (Lisbon, Portugal), and taught 90 hours at the Universitat de València in Psychology and Criminology, with student evaluations of 4.77-4.80/5."
+      ],
+      "expertise": {
+        "title": "Areas of expertise",
+        "areas": [
+          "Positive body image",
+          "Chronic pain",
+          "Virtual reality in health",
+          "Suicide prevention",
+          "Psychometric validation",
+          "R & Python",
+          "SQL & data visualization",
+          "Odoo/Python development"
+        ]
+      },
+      "education": {
+        "title": "Academic training",
+        "degrees": [
+          {
+            "title": "Bachelor's Degree in Psychology",
+            "university": "Universitat de València",
+            "year": "",
+            "grade": "9.01 - Outstanding"
+          },
+          {
+            "title": "Master's Degree in General Health Psychology",
+            "university": "Universitat de València",
+            "year": "",
+            "grade": "9.61 - Outstanding"
+          },
+          {
+            "title": "PhD in Psychology Research",
+            "university": "Universitat de València",
+            "year": "Defended Dec 16, 2025",
+            "grade": "Summa Cum Laude with International Mention"
+          },
+          {
+            "title": "Higher Technician in Multiplatform Application Development (2,000h)",
+            "university": "CEEDCV",
+            "year": "",
+            "grade": ""
+          }
+        ]
+      }
+    }
+  },
+  "research": {
+    "title": "Research",
+    "subtitle": "Positive body image, chronic pain, digital health and psychometric validation",
+    "research_lines": {
+      "title": "Research Lines",
+      "lines": [
+        {
+          "title": "Positive body image",
+          "description": "Study of positive body image and functionality appreciation as protective factors in chronic health conditions.",
+          "icon": "heart"
+        },
+        {
+          "title": "Chronic pain",
+          "description": "Psychological mechanisms and interventions for chronic low back pain and other chronic pain conditions.",
+          "icon": "brain"
+        },
+        {
+          "title": "Virtual reality in health",
+          "description": "Design and evaluation of virtual-reality-based interventions and assessment tools for health and body image.",
+          "icon": "monitor"
+        },
+        {
+          "title": "Suicide prevention",
+          "description": "Suicide stigma, literacy and prevention in Spanish-speaking populations.",
+          "icon": "suicide"
+        },
+        {
+          "title": "Psychometric validation",
+          "description": "Validation and cross-cultural adaptation of psychological assessment instruments (measurement invariance, differential item functioning).",
+          "icon": "clipboard"
+        }
+      ]
+    },
+    "research_projects": {
+      "title": "Research Projects & Contracts",
+      "subtitle": "Funded research projects I have been part of",
+      "projects": [
+        {
+          "name": "DALIA",
+          "fullTitle": "Data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions",
+          "pi": "Octavio Rivera Romero",
+          "institution": "Universidad de Sevilla",
+          "entity": "Ministry of Science, Innovation and Universities",
+          "period": "Since February 2026",
+          "role": "Contracted researcher"
+        },
+        {
+          "name": "VR-LBP",
+          "fullTitle": "Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema",
+          "pi": "Rosa Mª Baños Rivera",
+          "institution": "Universitat de València",
+          "entity": "Ministry of Science and Innovation",
+          "period": "November 2022 - August 2025",
+          "role": "Team member (FPU)"
+        }
+      ]
+    },
+    "research_stays": {
+      "title": "Research stays",
+      "subtitle": "International research mobility",
+      "stays": [
+        {
+          "institution": "Université du Québec en Outaouais",
+          "city": "Gatineau",
+          "country": "Canada",
+          "duration": "3 months",
+          "dates": "",
+          "grantType": "FPU 2023 complementary mobility grant",
+          "objectives": "International research stay carried out during doctoral training, within the framework of the VR-LBP project on virtual-reality-based interventions for chronic low back pain."
+        },
+        {
+          "institution": "Universidade Lusófona – Centro Universitário de Lisboa",
+          "city": "Lisbon",
+          "country": "Portugal",
+          "duration": "3 months",
+          "dates": "March 3, 2025 – May 2, 2025",
+          "grantType": "FPU 2024 complementary mobility grant",
+          "objectives": "International research stay carried out during doctoral training, within the framework of the VR-LBP project on virtual-reality-based interventions for chronic low back pain."
+        }
+      ]
+    },
+    "grants_awards": {
+      "title": "Grants & awards obtained",
+      "subtitle": "Competitive research funding",
+      "summary": {
+        "totalGrants": 4,
+        "grantsLabel": "Grants obtained",
+        "competitiveGrants": "100%",
+        "competitiveLabel": "Competitive funding"
+      },
+      "grants": [
+        {
+          "name": "Training grants for university faculty (FPU)",
+          "code": "FPU20/05798",
+          "type": "Predoctoral",
+          "entity": "Ministry of Science, Innovation and Universities",
+          "period": "Dec 1, 2021 – Nov 30, 2025 (4 years)",
+          "description": "Competitive predoctoral grant for training of university teaching and research staff, within the VR-LBP project.",
+          "amount": "",
+          "status": "Completed"
+        },
+        {
+          "name": "FPU complementary mobility grant 2023",
+          "code": "",
+          "type": "International mobility",
+          "entity": "Ministry of Science, Innovation and Universities",
+          "period": "Sep 13, 2023 – Dec 12, 2023 (3 months)",
+          "description": "Funding for the international research stay at Université du Québec en Outaouais, Canada.",
+          "amount": "",
+          "status": "Completed"
+        },
+        {
+          "name": "FPU complementary mobility grant 2024",
+          "code": "",
+          "type": "International mobility",
+          "entity": "Ministry of Science, Innovation and Universities",
+          "period": "Mar 3, 2025 – May 2, 2025 (3 months)",
+          "description": "Funding for the international research stay at Universidade Lusófona, Lisbon, Portugal.",
+          "amount": "",
+          "status": "Completed"
+        },
+        {
+          "name": "University department research collaboration grant",
+          "code": "",
+          "type": "Research collaboration",
+          "entity": "Ministry of Education and Vocational Training",
+          "period": "2019/2020 academic year",
+          "description": "Undergraduate research collaboration grant for the project \"Validation of the Test of Memory Malingering (TOMM) in a clinical neuropsychological sample,\" during the Master's Degree in General Health Psychology.",
+          "amount": "",
+          "status": "Completed"
+        }
+      ],
+      "footnote": "All predoctoral training and research stays were funded through nationally competitive FPU calls (Ministry of Science, Innovation and Universities)."
+    }
+  },
+  "publications": {
+    "title": "Publications",
+    "metrics": {
+      "total": "JCR publications",
+      "q1": "In Q1 journals",
+      "firstAuthor": "As 1st author",
+      "avgImpact": "Avg. Impact Factor",
+      "avgImpactValue": "≈4.7"
+    },
+    "filters": {
+      "search": "Search",
+      "year": "Year",
+      "all": "All",
+      "noResults": "No publications found with these filters",
+      "firstAuthorBadge": "1st Author",
+      "impactLabel": "Impact Factor",
+      "positionLabel": "Pos.",
+      "ofLabel": "of",
+      "authorsLabel": "Authors"
+    },
+    "list": [
+      {
+        "id": "pub1",
+        "title": "Internet-Based Attachment-Based Compassion Therapy for Adults With Chronic Medical Conditions: Randomized Controlled Trial"
+      },
+      {
+        "id": "pub2",
+        "title": "Effects of standard prenatal education with and without pain neuroscience education on functionality appreciation and body surveillance in pregnant women with lumbopelvic pain: a secondary analysis of a RCT"
+      },
+      {
+        "id": "pub3",
+        "title": "Exploring Virtual Reality for Body Image Assessment and Psychological Interventions in Individuals with Obesity: A Comprehensive Review"
+      },
+      {
+        "id": "pub4",
+        "title": "Body image and body awareness interventions in chronic pain: A systematic review of effects on pain-related variables and emotional distress"
+      },
+      {
+        "id": "pub5",
+        "title": "Enhancing Body Image in Chronic Pain: A Case Study Utilizing Virtual Reality"
+      },
+      {
+        "id": "pub6",
+        "title": "Understanding the role of positive body image in chronic low back pain: A path-analytic model"
+      },
+      {
+        "id": "pub7",
+        "title": "Levels and Predictors of Suicide Literacy and Suicide Stigma in Spanish-Speaking Individuals"
+      },
+      {
+        "id": "pub8",
+        "title": "Validation of three scales for enhanced suicide prevention in Spanish-speaking populations: Suicidal ideation, stigma, and literacy"
+      },
+      {
+        "id": "pub9",
+        "title": "Measurement invariance and differential item functioning of the Functionality Appreciation Scale (FAS) in Colombia and Spain"
+      },
+      {
+        "id": "pub10",
+        "title": "Psychometric properties of the Spanish version of the Functionality Appreciation Scale"
+      }
+    ]
+  },
+  "conferences": {
+    "title": "Conferences & Presentations",
+    "subtitle": "Participation in national and international scientific events",
+    "summary": {
+      "total": "20",
+      "description": "National and international conference contributions: posters, oral communications and talks"
+    },
+    "metrics": {
+      "byScope": {
+        "title": "By scope",
+        "international": { "count": 14, "label": "International", "percentage": 70 },
+        "national": { "count": 6, "label": "National", "percentage": 30 }
+      },
+      "byType": {
+        "title": "By participation type",
+        "poster": { "count": 17, "label": "Posters", "percentage": 85 },
+        "oral": { "count": 3, "label": "Oral communications & talks", "percentage": 15 }
+      },
+      "byYear": {
+        "title": "Contributions by year",
+        "data": [
+          { "year": "2021", "count": 1 },
+          { "year": "2022", "count": 8 },
+          { "year": "2023", "count": 5 },
+          { "year": "2024", "count": 4 },
+          { "year": "2026", "count": 2 }
+        ]
+      },
+      "byCountry": {
+        "title": "Countries presented in",
+        "countries": [
+          { "name": "Spain", "count": 8, "flag": "🇪🇸" },
+          { "name": "United States", "count": 7, "flag": "🇺🇸" },
+          { "name": "Slovakia", "count": 1, "flag": "🇸🇰" },
+          { "name": "France", "count": 1, "flag": "🇫🇷" },
+          { "name": "Netherlands", "count": 1, "flag": "🇳🇱" },
+          { "name": "United Kingdom", "count": 1, "flag": "🇬🇧" },
+          { "name": "Virtual/Online", "count": 1, "flag": "🌐" }
+        ]
+      }
+    },
+    "highlights": {
+      "title": "Featured conferences",
+      "conferences": [
+        {
+          "name": "2021 ABCT Annual Convention",
+          "location": "Virtual convention",
+          "year": 2021,
+          "type": "Poster · 1st author",
+          "scope": "International",
+          "highlight": "First-author poster, Association for Behavioral and Cognitive Therapies"
+        },
+        {
+          "name": "36th Annual Conference of the European Health Psychology Society (EHPS)",
+          "location": "Bratislava, Slovakia",
+          "year": 2022,
+          "type": "Poster",
+          "scope": "International",
+          "highlight": "European Health Psychology Society annual conference"
+        },
+        {
+          "name": "Emotions 2023 (Tilburg University)",
+          "location": "Netherlands",
+          "year": 2023,
+          "type": "Poster · 1st author",
+          "scope": "International",
+          "highlight": "First-author presentation on VR-based functionality appreciation assessment"
+        },
+        {
+          "name": "57th Annual Convention ABCT",
+          "location": "Seattle, United States",
+          "year": 2023,
+          "type": "Poster",
+          "scope": "International",
+          "highlight": "One of 3 contributions at the Seattle edition of the ABCT Annual Convention"
+        },
+        {
+          "name": "Appearance Matters 11 Conference",
+          "location": "Bristol, United Kingdom",
+          "year": 2026,
+          "type": "Poster · 1st author",
+          "scope": "International",
+          "highlight": "First-author presentation, Centre for Appearance Research"
+        }
+      ]
+    },
+    "topics": {
+      "title": "Main topics",
+      "tags": [
+        "Positive body image",
+        "Chronic pain",
+        "Virtual reality in health",
+        "Suicide prevention",
+        "Suicide stigma & literacy",
+        "Positive psychology",
+        "Scale validation",
+        "Emotional well-being"
+      ]
+    }
+  },
+  "teaching": {
+    "title": "Teaching",
+    "subtitle": "University teaching experience",
+    "summary": {
+      "totalHours": 90,
+      "totalHoursLabel": "Total hours",
+      "totalCredits": 9,
+      "totalCreditsLabel": "ECTS credits",
+      "yearsExperience": "2022-2024",
+      "yearsExperienceLabel": "Academic years",
+      "institution": "Universitat de València",
+      "institutionLabel": "Institution"
+    },
+    "ratings": {
+      "title": "Student evaluations",
+      "byYear": [
+        { "academicYear": "2022-2023", "rating": 4.77, "outOf": 5 },
+        { "academicYear": "2023-2024", "rating": 4.8, "outOf": 5 }
+      ],
+      "description": "Consistently excellent evaluations across both academic years"
+    },
+    "courses": {
+      "title": "Courses taught",
+      "courses": [
+        {
+          "name": "Personality and Individual Differences",
+          "degree": "Bachelor's Degree in Psychology",
+          "academicYear": "2022-2023",
+          "credits": 3,
+          "language": "Spanish",
+          "type": "PIF"
+        },
+        {
+          "name": "Victimology",
+          "degree": "Bachelor's Degree in Criminology",
+          "academicYear": "2022-2023",
+          "credits": 3,
+          "language": "Spanish",
+          "type": "PIF"
+        },
+        {
+          "name": "Prevention and Treatment of Delinquency",
+          "degree": "Bachelor's Degree in Criminology",
+          "academicYear": "2023-2024",
+          "credits": 1.5,
+          "language": "Spanish",
+          "type": "PIF"
+        },
+        {
+          "name": "Prevention and Treatment of Delinquency",
+          "degree": "Bachelor's Degree in Criminology",
+          "academicYear": "2023-2024",
+          "credits": 1.5,
+          "language": "Spanish",
+          "type": "PIF"
+        }
+      ]
+    },
+    "training": {
+      "title": "Training for university teaching",
+      "training": [
+        { "course": "Initial training for research faculty in training", "institution": "Universitat de València", "hours": 75 },
+        { "course": "Occupational risk prevention at UV, edition 2", "institution": "Universitat de València", "hours": 20 }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Data analysis, software development and research methods",
+    "technical_skills": {
+      "title": "Technical & methodological skills",
+      "trainingLabel": "Training",
+      "categories": [
+        {
+          "category": "Data Analysis & Statistics",
+          "icon": "bar-chart",
+          "skills": [
+            {
+              "name": "R",
+              "level": "Advanced",
+              "description": "Statistical analysis, modeling and path-analysis, used across JCR publications.",
+              "training": "DataCamp: Introduction to R, Introduction to Statistics in R, Introduction to the Tidyverse, Exploratory Data Analysis in R, Data Manipulation with dplyr, Introduction to Data Visualization with ggplot2, Joining Data with dplyr",
+              "percentage": 85
+            },
+            {
+              "name": "Python",
+              "level": "Intermediate",
+              "description": "Data analysis and automation with pandas.",
+              "training": "DataCamp: Introduction to Python, Intermediate Python",
+              "percentage": 65
+            },
+            {
+              "name": "SQL",
+              "level": "Intermediate",
+              "description": "Queries for data analysis.",
+              "training": "DataCamp: Introduction to SQL, Intermediate SQL",
+              "percentage": 60
+            },
+            {
+              "name": "Tableau",
+              "level": "Intermediate",
+              "description": "Data visualization and dashboards.",
+              "training": "DataCamp: Introduction to Tableau",
+              "percentage": 60
+            },
+            {
+              "name": "Power BI",
+              "level": "Basic",
+              "description": "Dashboard and report building.",
+              "training": "Specific Power BI training",
+              "percentage": 45
+            },
+            {
+              "name": "Orange",
+              "level": "Intermediate",
+              "description": "Visual, no-code machine learning.",
+              "training": "",
+              "percentage": 60
+            },
+            {
+              "name": "SPSS",
+              "level": "Advanced",
+              "description": "Classical statistical analysis and database management.",
+              "training": "",
+              "percentage": 80
+            }
+          ]
+        },
+        {
+          "category": "Software Development",
+          "icon": "code",
+          "skills": [
+            {
+              "name": "Odoo Framework",
+              "level": "Advanced",
+              "description": "Full module development: Python + ORM + PostgreSQL + QWeb, web controllers, public portal and permission system. Used to build the AulaMetrics platform.",
+              "training": "",
+              "percentage": 85
+            },
+            {
+              "name": "Python (backend)",
+              "level": "Advanced",
+              "description": "Backend development and analysis automation.",
+              "training": "",
+              "percentage": 80
+            },
+            {
+              "name": "PostgreSQL",
+              "level": "Advanced",
+              "description": "Relational data modeling.",
+              "training": "",
+              "percentage": 80
+            },
+            {
+              "name": "JavaScript / HTML5 / CSS3 / Bootstrap 5",
+              "level": "Intermediate",
+              "description": "Front-end development for web dashboards and portals.",
+              "training": "",
+              "percentage": 70
+            },
+            {
+              "name": "Chart.js & d3-cloud",
+              "level": "Intermediate",
+              "description": "Quantitative charts and qualitative (word-cloud) data visualization on the web.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "Docker / Docker Compose",
+              "level": "Intermediate",
+              "description": "Containerized application deployment.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "Git",
+              "level": "Advanced",
+              "description": "Version control.",
+              "training": "",
+              "percentage": 80
+            }
+          ]
+        },
+        {
+          "category": "Research Methods",
+          "icon": "flask",
+          "skills": [
+            {
+              "name": "Randomized Controlled Trials (RCT)",
+              "level": "Advanced",
+              "description": "Design, implementation and evaluation of interventions.",
+              "training": "",
+              "percentage": 85
+            },
+            {
+              "name": "Psychometric validation",
+              "level": "Advanced",
+              "description": "Measurement invariance and differential item functioning (DIF) analysis; first author on 2 scale-validation JCR articles.",
+              "training": "",
+              "percentage": 85
+            },
+            {
+              "name": "Systematic reviews",
+              "level": "Advanced",
+              "description": "Systematic literature reviews.",
+              "training": "",
+              "percentage": 80
+            },
+            {
+              "name": "Mediation / path-analysis",
+              "level": "Advanced",
+              "description": "Path-analytic modeling; first author on a path-analysis JCR article.",
+              "training": "",
+              "percentage": 85
+            },
+            {
+              "name": "Digital & VR health interventions",
+              "level": "Advanced",
+              "description": "Design and evaluation of virtual-reality-based interventions in health.",
+              "training": "",
+              "percentage": 80
+            }
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "languages": [
+        { "language": "Spanish", "level": "Native", "percentage": 100, "certificate": "", "institution": "" },
+        { "language": "Valencian / Catalan", "level": "C1", "percentage": 85, "certificate": "Junta Qualificadora de Coneixements en Valencià", "institution": "" },
+        { "language": "English", "level": "B2", "percentage": 65, "certificate": "British Council", "institution": "" }
+      ]
+    },
+    "additionalTraining": {
+      "title": "Other training courses",
+      "courses": [
+        { "name": "Artificial Intelligence and Productivity", "institution": "Santander Open Academy (Google)", "hours": 2 },
+        { "name": "REFWORKS 2.0 for bibliographic management in science and health sciences", "institution": "Universitat de València", "hours": 15 },
+        { "name": "Transferring research results", "institution": "Universitat de València", "hours": 15 },
+        { "name": "Creating reproducible documents and websites with R", "institution": "Universitat de València", "hours": 15 }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Applied data engineering: from data collection to decision-making",
+    "items": [
+      {
+        "flagshipLabel": "Flagship Project",
+        "name": "AulaMetrics",
+        "tagline": "A full psychosocial assessment and educational data analytics platform for schools, built on Odoo.",
+        "problem": {
+          "title": "The problem",
+          "description": "Spanish schools routinely need to run standardized psychosocial assessments (well-being, risk indicators) but typically lack a system to schedule them, collect anonymous responses at scale, analyze results, and flag risk automatically — counsellors are left doing this manually with spreadsheets."
+        },
+        "solution": {
+          "title": "The solution",
+          "description": "AulaMetrics is a complete module built on Odoo 17 Community Edition that lets schools schedule standardized evaluations, collect anonymous responses through unique tokens, automatically analyze results with risk detection, and generate role-differentiated dashboards and reports for administrators, counsellors, tutors and school leadership."
+        },
+        "stack": {
+          "title": "Tech stack",
+          "technologies": [
+            "Odoo 17 (Python 3.10+)",
+            "PostgreSQL 14+",
+            "pandas",
+            "Chart.js",
+            "d3-cloud",
+            "Bootstrap 5",
+            "QWeb",
+            "HTML5 / CSS3 / JS",
+            "Docker Compose"
+          ]
+        },
+        "features": [
+          {
+            "icon": "architecture",
+            "title": "Modular 3-layer architecture",
+            "description": "Presentation, application and data layers with a purpose-built entity-relationship model: academic groups, evaluations, questionnaires, participations, alert thresholds, alerts and metrics."
+          },
+          {
+            "icon": "security",
+            "title": "Privacy & security by design",
+            "description": "Four-level role system (administrator, counsellor, tutor, school leadership) with row-level access rules in Odoo, aggregated-data anonymization for tutors/leadership, GDPR/LOPDGDD-aware handling of minors' data, a session-less public portal secured with UUID v4 tokens, and HTML sanitization against XSS."
+          },
+          {
+            "icon": "validation",
+            "title": "Validated with real school counsellors",
+            "description": "Demo and feedback sessions with practicing counsellors at Spanish public schools drove a significant refactor of the scoring engine — adding multi-scale support per questionnaire (e.g. SDQ, SWLS) — plus a new case-tracking and internal messaging module."
+          },
+          {
+            "icon": "deployment",
+            "title": "Production-ready deployment",
+            "description": "Containerized with Docker Compose (Odoo + PostgreSQL) on a Linux server, with a documented production plan including an Nginx reverse proxy and HTTPS."
+          }
+        ],
+        "dataAnalystNote": {
+          "title": "Why this matters for data analysis",
+          "description": "AulaMetrics is an end-to-end applied data engineering project — from the data model and collection to the analytics engine and visualization — built on a domain (psychosocial well-being in schools) directly connected to my research specialty. It reflects the same pipeline thinking I apply in quantitative research, taken all the way to production software."
+        },
+        "credit": "Final Degree Project (Higher Technician in Multiplatform Application Development, CEEDCV). Supervised by Alfredo Oltra Orengo."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional & Research Experience",
+    "subtitle": "Research contracts and predoctoral training",
+    "responsibilitiesLabel": "Key responsibilities",
+    "skillsLabel": "Skills",
+    "experiences": [
+      {
+        "role": "Contracted Researcher — DALIA Project",
+        "institution": "Universidad de Sevilla",
+        "status": "Ongoing",
+        "location": "Sevilla, Spain",
+        "startDate": "February 2026",
+        "endDate": "Present",
+        "duration": "",
+        "description": "Contracted researcher on DALIA, a project on data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions, led by Octavio Rivera Romero and funded by the Ministry of Science, Innovation and Universities.",
+        "responsibilities": [
+          "Data collection and analysis for the personalization of a digital health intervention",
+          "Collaboration within a multidisciplinary research team",
+          "Contribution to the design of data-driven components of the digital health solution"
+        ],
+        "skills": ["Data analysis", "Digital health", "R & Python", "Multidisciplinary collaboration"]
+      },
+      {
+        "role": "Predoctoral Researcher (FPU) — VR-LBP Project",
+        "institution": "Universitat de València",
+        "status": "Completed",
+        "location": "Valencia, Spain",
+        "startDate": "December 2021",
+        "endDate": "November 2025",
+        "duration": "4 years",
+        "description": "Predoctoral researcher under an FPU grant (FPU20/05798), member of the research team of the R&D project \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema,\" led by Rosa Mª Baños Rivera. This period produced the 10 JCR publications, over 20 conference contributions and the doctoral thesis on positive body image and chronic low back pain.",
+        "responsibilities": [
+          "Design and statistical analysis (R) of studies on positive body image and chronic pain",
+          "Psychometric validation of assessment instruments (e.g. Functionality Appreciation Scale)",
+          "Design and evaluation of virtual-reality-based interventions",
+          "Co-authorship of JCR publications and conference presentations",
+          "International research stays in Canada and Portugal"
+        ],
+        "skills": ["RCT design", "Psychometric validation", "R", "Virtual reality in health", "Scientific writing"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Collaborations and inquiries",
+    "contactInfo": {
+      "email": "Angel.zamora@uv.es",
+      "emailLabel": "Email",
+      "location": "Sevilla / Valencia, Spain",
+      "institution": "Universitat de València"
+    },
+    "form": {
+      "title": "Send me a message",
+      "fields": {
+        "name": { "label": "Name", "placeholder": "Your full name" },
+        "email": { "label": "Email", "placeholder": "your.email@example.com" },
+        "subject": { "label": "Subject", "placeholder": "Reason for contact" },
+        "message": { "label": "Message", "placeholder": "Write your message here..." }
+      },
+      "button": "Send message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! I'll get back to you soon.",
+      "error": "There was an error sending the message. Please try again or write to me directly via email."
+    },
+    "socialProfiles": {
+      "title": "Academic profiles",
+      "profiles": [
+        {
+          "name": "LinkedIn",
+          "icon": "linkedin",
+          "url": "https://www.linkedin.com/in/angelzamoramartinez/",
+          "username": "Ángel Zamora Martínez",
+          "color": "#0A66C2"
+        },
+        {
+          "name": "ORCID",
+          "icon": "orcid",
+          "url": "https://orcid.org/0000-0003-3845-0288",
+          "username": "0000-0003-3845-0288",
+          "color": "#A6CE39"
+        },
+        {
+          "name": "ResearchGate",
+          "icon": "graduation-cap",
+          "url": "https://www.researchgate.net/profile/Angel-Zamora-Martinez",
+          "username": "Ángel Zamora Martínez",
+          "color": "#00D0B1"
+        }
+      ]
+    },
+    "availability": {
+      "title": "Available for",
+      "items": [
+        "Research collaborations",
+        "Peer review of manuscripts",
+        "Talks and presentations on data analysis in health & behavioral research",
+        "Consulting on Odoo/Python data platform development",
+        "Consultations on positive body image, chronic pain and psychometric validation"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Ángel Zamora Martínez. All rights reserved.",
+    "quickLinks": {
+      "title": "Quick links"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Angel.zamora@uv.es",
+      "institution": "Universitat de València",
+      "location": "Sevilla / Valencia, Spain"
+    },
+    "social": {
+      "title": "Social profiles",
+      "profiles": [
+        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/angelzamoramartinez/", "icon": "linkedin", "ariaLabel": "Visit my LinkedIn profile" },
+        { "name": "ORCID", "url": "https://orcid.org/0000-0003-3845-0288", "icon": "orcid", "ariaLabel": "Visit my ORCID profile" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Angel-Zamora-Martinez", "icon": "graduation-cap", "ariaLabel": "Visit my ResearchGate profile" }
+      ]
+    },
+    "backToTop": "Back to top",
+    "privacy": {
+      "text": "This website is an academic personal page. No personal data is collected from visitors."
+    },
+    "note": "All external links open in a new tab"
+  }
+}
