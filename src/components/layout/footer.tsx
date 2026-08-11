@@ -53,7 +53,6 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-primary/90 tracking-wider uppercase">{footerDict.contact.title}</h3>
             <address className="not-italic space-y-2 text-foreground/70">
-              <p>{footerDict.contact.institution}</p>
               <p>{footerDict.contact.location}</p>
               <a href={`mailto:${footerDict.contact.email}`} className="text-primary hover:underline block">
                 {footerDict.contact.email}

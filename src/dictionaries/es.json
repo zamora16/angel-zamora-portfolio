@@ -763,8 +763,7 @@
     "contactInfo": {
       "email": "angelzamora1616@gmail.com",
       "emailLabel": "Correo electrónico",
-      "location": "Valencia, España",
-      "institution": "Adhera Health"
+      "location": "Valencia, España"
     },
     "form": {
       "title": "Envíame un mensaje",
@@ -824,7 +823,6 @@
     "contact": {
       "title": "Contacto",
       "email": "angelzamora1616@gmail.com",
-      "institution": "Adhera Health",
       "location": "Valencia, España"
     },
     "social": {
