@@ -12,9 +12,9 @@
   },
   "home": {
     "name": "Ángel Zamora Martínez",
-    "title": "Doctor en Psicología · Analista de Datos e Investigador",
-    "tagline": "Investigador y analista de datos — convirtiendo datos de salud y comportamiento en evidencia accionable.",
-    "affiliation": "Adhera Health · Proyecto DALIA",
+    "title": "Doctor en Psicología, Analista de Datos e Investigador en Salud Digital",
+    "tagline": "Convirtiendo datos de salud y comportamiento en evidencia accionable.",
+    "affiliation": "",
     "buttons": {
       "publications": "Ver Publicaciones",
       "projects": "Ver Proyectos"
@@ -764,7 +764,7 @@
       "email": "angelzamora1616@gmail.com",
       "emailLabel": "Correo electrónico",
       "location": "Valencia, España",
-      "institution": "Universitat de València"
+      "institution": "Adhera Health"
     },
     "form": {
       "title": "Envíame un mensaje",
@@ -824,7 +824,7 @@
     "contact": {
       "title": "Contacto",
       "email": "angelzamora1616@gmail.com",
-      "institution": "Universitat de València",
+      "institution": "Adhera Health",
       "location": "Valencia, España"
     },
     "social": {
@@ -838,7 +838,6 @@
     "backToTop": "Volver arriba",
     "privacy": {
       "text": "Este sitio web es una página personal académica. No se recopilan datos personales de los visitantes."
-    },
-    "note": "Todos los enlaces externos se abren en una nueva pestaña"
+    }
   }
 }

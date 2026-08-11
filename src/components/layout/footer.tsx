@@ -32,7 +32,6 @@ export function Footer() {
               <span>Ángel Zamora Martínez</span>
             </Link>
             <p className="text-foreground/70">{footerDict.privacy.text}</p>
-            <p className="text-xs text-foreground/50">{footerDict.note}</p>
           </div>
 
           {/* Quick Links */}

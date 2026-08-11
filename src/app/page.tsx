@@ -52,13 +52,6 @@ export default function Home() {
           >
             {homeDict.tagline}
           </motion.p>
-          <motion.p
-            className="mt-2 text-md text-foreground/60"
-            variants={FADE_IN_VARIANTS}
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
-            {homeDict.affiliation}
-          </motion.p>
           <motion.div
             variants={FADE_IN_VARIANTS}
             transition={{ delay: 0.6, duration: 0.5 }}
