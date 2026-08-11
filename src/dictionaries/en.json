@@ -25,7 +25,7 @@
         "PhD in Psychology from the Universitat de València (thesis defended December 16, 2025), awarded the highest distinction of Summa Cum Laude with International Mention for the dissertation \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
         "My predoctoral training was funded by an FPU grant (FPU20/05798, Ministry of Science, Innovation and Universities, 2021-2025) within the R&D project \"Changing Low Back Pain Employing Virtual Enhanced Reality,\" led by Dr. Rosa Mª Baños Rivera. Since February 2026 I have been a contracted researcher on the DALIA project at the Universidad de Sevilla (PI: Octavio Rivera Romero), on data-driven personalization of a digital health solution for family caregivers of children with chronic conditions.",
         "I am the author of 10 articles in JCR-indexed journals (mostly Q1), first author on 2 of them, and I have contributed to more than 20 national and international conferences — including presentations in the United States, Canada, France, the Netherlands and Spain.",
-        "I combine this research profile with an uncommon technical background for psychology: I hold a Higher Technician qualification in Multiplatform Application Development (2,000h, CEEDCV) and specific training in data analysis (R, Python, SQL, Tableau, machine learning). I built AulaMetrics, a full Odoo/Python/PostgreSQL platform for psychosocial assessment in schools, validated with real school counsellors. I completed international research stays at the Université du Québec en Outaouais (Canada) and Universidade Lusófona (Lisbon, Portugal), and taught 90 hours at the Universitat de València in Psychology and Criminology, with student evaluations of 4.77-4.80/5."
+        "I combine this research profile with an uncommon technical background for psychology: I hold a Higher Technician qualification in Multiplatform Application Development (average grade: 9, CEEDCV) and specific training in data analysis (R, Python, SQL, Excel, machine learning). I built AulaMetrics, a full Odoo/Python/PostgreSQL platform for psychosocial assessment in schools, validated with real school counsellors. I completed international research stays at the Université du Québec en Outaouais (Canada) and Universidade Lusófona (Lisbon, Portugal), and taught 90 hours at the Universitat de València in Psychology and Criminology, with student evaluations of 4.77-4.80/5."
       ],
       "expertise": {
         "title": "Areas of expertise",
@@ -62,10 +62,10 @@
             "grade": "Summa Cum Laude with International Mention"
           },
           {
-            "title": "Higher Technician in Multiplatform Application Development (2,000h)",
+            "title": "Higher Technician in Multiplatform Application Development",
             "university": "CEEDCV",
             "year": "",
-            "grade": ""
+            "grade": "Average grade: 9"
           }
         ]
       }
@@ -118,7 +118,7 @@
           "role": "Contracted researcher"
         },
         {
-          "name": "VR-LBP",
+          "name": "CLEVER",
           "fullTitle": "Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema",
           "pi": "Rosa Mª Baños Rivera",
           "institution": "Universitat de València",
@@ -139,16 +139,16 @@
           "duration": "3 months",
           "dates": "",
           "grantType": "FPU 2023 complementary mobility grant",
-          "objectives": "International research stay carried out during doctoral training, within the framework of the VR-LBP project on virtual-reality-based interventions for chronic low back pain."
+          "objectives": "International research stay carried out during doctoral training, within the framework of the CLEVER project on virtual-reality-based interventions for chronic low back pain."
         },
         {
           "institution": "Universidade Lusófona – Centro Universitário de Lisboa",
           "city": "Lisbon",
           "country": "Portugal",
           "duration": "3 months",
-          "dates": "March 3, 2025 – May 2, 2025",
+          "dates": "",
           "grantType": "FPU 2024 complementary mobility grant",
-          "objectives": "International research stay carried out during doctoral training, within the framework of the VR-LBP project on virtual-reality-based interventions for chronic low back pain."
+          "objectives": "International research stay carried out during doctoral training, within the framework of the CLEVER project on virtual-reality-based interventions for chronic low back pain."
         }
       ]
     },
@@ -168,7 +168,7 @@
           "type": "Predoctoral",
           "entity": "Ministry of Science, Innovation and Universities",
           "period": "Dec 1, 2021 – Nov 30, 2025 (4 years)",
-          "description": "Competitive predoctoral grant for training of university teaching and research staff, within the VR-LBP project.",
+          "description": "Competitive predoctoral grant for training of university teaching and research staff, within the CLEVER project.",
           "amount": "",
           "status": "Completed"
         },
@@ -187,7 +187,7 @@
           "code": "",
           "type": "International mobility",
           "entity": "Ministry of Science, Innovation and Universities",
-          "period": "Mar 3, 2025 – May 2, 2025 (3 months)",
+          "period": "2025 (3 months)",
           "description": "Funding for the international research stay at Universidade Lusófona, Lisbon, Portugal.",
           "amount": "",
           "status": "Completed"
@@ -469,10 +469,10 @@
             },
             {
               "name": "Tableau",
-              "level": "Intermediate",
+              "level": "Basic",
               "description": "Data visualization and dashboards.",
               "training": "DataCamp: Introduction to Tableau",
-              "percentage": 60
+              "percentage": 40
             },
             {
               "name": "Power BI",
@@ -482,11 +482,11 @@
               "percentage": 45
             },
             {
-              "name": "Orange",
+              "name": "Excel",
               "level": "Intermediate",
-              "description": "Visual, no-code machine learning.",
+              "description": "Data analysis and management, pivot tables and advanced formulas for reporting.",
               "training": "",
-              "percentage": 60
+              "percentage": 65
             },
             {
               "name": "SPSS",
@@ -696,14 +696,14 @@
         "skills": ["Data analysis", "Digital health", "R & Python", "Multidisciplinary collaboration"]
       },
       {
-        "role": "Predoctoral Researcher (FPU) — VR-LBP Project",
+        "role": "Predoctoral Researcher (FPU) — CLEVER Project",
         "institution": "Universitat de València",
         "status": "Completed",
         "location": "Valencia, Spain",
         "startDate": "December 2021",
         "endDate": "November 2025",
         "duration": "4 years",
-        "description": "Predoctoral researcher under an FPU grant (FPU20/05798), member of the research team of the R&D project \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema,\" led by Rosa Mª Baños Rivera. This period produced the 10 JCR publications, over 20 conference contributions and the doctoral thesis on positive body image and chronic low back pain.",
+        "description": "Predoctoral researcher under an FPU grant (FPU20/05798), member of the research team of the R&D project CLEVER — \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema\" —, led by Rosa Mª Baños Rivera. This period produced the 10 JCR publications, over 20 conference contributions and the doctoral thesis on positive body image and chronic low back pain.",
         "responsibilities": [
           "Design and statistical analysis (R) of studies on positive body image and chronic pain",
           "Psychometric validation of assessment instruments (e.g. Functionality Appreciation Scale)",
@@ -712,6 +712,22 @@
           "International research stays in Canada and Portugal"
         ],
         "skills": ["RCT design", "Psychometric validation", "R", "Virtual reality in health", "Scientific writing"]
+      },
+      {
+        "role": "Independent Statistical Consultant",
+        "institution": "Self-employed / Freelance",
+        "status": "Ongoing",
+        "location": "Remote",
+        "startDate": "",
+        "endDate": "",
+        "duration": "Alongside his research career",
+        "description": "Independent work as a statistical consultant, supporting research teams with methodology and data analysis for scientific manuscripts in the health field.",
+        "responsibilities": [
+          "Advice on statistical design and choice of analyses for scientific manuscripts",
+          "Data analysis (R) for studies in drafting or review stages",
+          "Support in interpreting and writing up statistical results"
+        ],
+        "skills": ["Statistical consulting", "R", "Research methodology", "Scientific writing"]
       }
     ]
   },
@@ -719,7 +735,7 @@
     "title": "Contact",
     "subtitle": "Collaborations and inquiries",
     "contactInfo": {
-      "email": "Angel.zamora@uv.es",
+      "email": "angelzamora1616@gmail.com",
       "emailLabel": "Email",
       "location": "Sevilla / Valencia, Spain",
       "institution": "Universitat de València"
@@ -781,7 +797,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "Angel.zamora@uv.es",
+      "email": "angelzamora1616@gmail.com",
       "institution": "Universitat de València",
       "location": "Sevilla / Valencia, Spain"
     },

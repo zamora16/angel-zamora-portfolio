@@ -1,18 +1,19 @@
 import type { Publication } from './types';
 
 // Source of truth: MERITOS.md, section 5 ("Publicaciones científicas (JCR / indexadas)").
-// Only facts present in that table are encoded here — no DOI is listed in the source
-// document, so none is fabricated here either.
+// Only facts present there (or explicitly confirmed by Ángel) are encoded here —
+// no DOI/author list is fabricated for entries where it isn't confirmed.
 export const publications: Publication[] = [
   {
     id: 'pub1',
     type: 'article',
     year: 2026,
     yearLabel: 'In press',
-    authors: 'Zamora Martínez, Á. et al.',
+    authors: 'Herrero, R.; Martínez-Sanchis, M.; Zamora, Á.; Vara, M.D.; Campos, D.; García-Campayo, J.; Baños, R.',
     title:
       'Internet-Based Attachment-Based Compassion Therapy for Adults With Chronic Medical Conditions: Randomized Controlled Trial',
     journal: 'Journal of Medical Internet Research (JMIR)',
+    doi: 'http://dx.doi.org/10.2196/86679',
     quartile: 'Q1',
     position: '3/7',
     impactFactor: '8.2',
@@ -24,7 +25,8 @@ export const publications: Publication[] = [
     id: 'pub2',
     type: 'article',
     year: 2026,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors:
+      'García-Lucas, C.; Zamora, Á.; Amer-Cuenca, J.J.; Arguisuelas, M.D.; Pardo, J.; Baños, R.M.; Lisón, J.F.; Biviá-Roig, G.',
     title:
       'Effects of standard prenatal education with and without pain neuroscience education on functionality appreciation and body surveillance in pregnant women with lumbopelvic pain: a secondary analysis of a RCT',
     journal: 'Midwifery (Elsevier)',
@@ -40,7 +42,7 @@ export const publications: Publication[] = [
     type: 'article',
     year: 2026,
     yearLabel: '2025/2026',
-    authors: 'Zamora Martínez, Á. et al.',
+    authors: 'Corno, G.; Zamora, Á.; Bouchard, S.; Baños, R.M.; Baillot, A.; Monthuy-Blanc, J.',
     title:
       'Exploring Virtual Reality for Body Image Assessment and Psychological Interventions in Individuals with Obesity: A Comprehensive Review',
     journal: 'Obesity Reviews (Wiley)',
@@ -55,7 +57,7 @@ export const publications: Publication[] = [
     id: 'pub4',
     type: 'article',
     year: 2026,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors: 'Navarro-Moreno, V.; Zamora, Á.; Herrero, R.; Miragall, M.; Parola, G.; Saccone, V.; Baños, R.M.',
     title:
       'Body image and body awareness interventions in chronic pain: A systematic review of effects on pain-related variables and emotional distress',
     journal: 'Journal of Pain Research (Dove Medical Press)',
@@ -70,7 +72,7 @@ export const publications: Publication[] = [
     id: 'pub5',
     type: 'article',
     year: 2025,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors: 'Navarro-Moreno, V.; Herrero, R.; Zamora, Á.; Miragall, M.; Baños, R.M.',
     title: 'Enhancing Body Image in Chronic Pain: A Case Study Utilizing Virtual Reality',
     journal: 'Journal of Clinical Psychology (Wiley)',
     quartile: 'Q2',
@@ -84,7 +86,7 @@ export const publications: Publication[] = [
     id: 'pub6',
     type: 'article',
     year: 2025,
-    authors: 'Zamora Martínez, Á. (1st author) et al.',
+    authors: 'Zamora, Á.; Parola, G.; Desdentado, L.; Herrero, R.; Miragall, M.; Baños, R.',
     title: 'Understanding the role of positive body image in chronic low back pain: A path-analytic model',
     journal: 'Body Image (Elsevier)',
     quartile: 'Q1',
@@ -98,7 +100,8 @@ export const publications: Publication[] = [
     id: 'pub7',
     type: 'article',
     year: 2024,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors:
+      'Pierantonelli, M.; Mira, A.; Zamora, Á.; Desdentado, L.; Diego-Pedro, R.; González-Hernández, E.; Bretón-López, J.; García-Palacios, A.; Baños, R.M.',
     title: 'Levels and Predictors of Suicide Literacy and Suicide Stigma in Spanish-Speaking Individuals',
     journal: 'Brain and Behavior (Wiley)',
     quartile: 'Q2',
@@ -112,7 +115,8 @@ export const publications: Publication[] = [
     id: 'pub8',
     type: 'article',
     year: 2024,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors:
+      'Pierantonelli, M.; Mira, A.; Martínez-Gregorio, S.; Zamora, Á.; Diego-Pedro, R.; Escrivá-Martínez, T.; Bretón-López, J.; García-Palacios, A.; Baños, R.M.',
     title:
       'Validation of three scales for enhanced suicide prevention in Spanish-speaking populations: Suicidal ideation, stigma, and literacy',
     journal: 'Journal of Psychiatric Research (Elsevier)',
@@ -127,7 +131,8 @@ export const publications: Publication[] = [
     id: 'pub9',
     type: 'article',
     year: 2024,
-    authors: 'Zamora Martínez, Á. et al.',
+    authors:
+      'Mebarak, M.; Maïano, C.; Mendoza, J.; Zamora, Á.; Baños, R.; Desdentado, L.; Miragall, M.; Herrero, R.; Swami, V.',
     title:
       'Measurement invariance and differential item functioning of the Functionality Appreciation Scale (FAS) in Colombia and Spain',
     journal: 'Body Image (Elsevier)',
@@ -142,7 +147,7 @@ export const publications: Publication[] = [
     id: 'pub10',
     type: 'article',
     year: 2024,
-    authors: 'Zamora Martínez, Á. (1st author) et al.',
+    authors: 'Zamora, Á.; Desdentado, L.; Herrero, R.; Miragall, M.; Baños, R.',
     title: 'Psychometric properties of the Spanish version of the Functionality Appreciation Scale',
     journal: 'Journal of Eating Disorders (Springer)',
     quartile: 'Q1',

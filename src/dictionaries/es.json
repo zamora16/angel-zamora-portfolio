@@ -25,7 +25,7 @@
         "Doctor en Psicología por la Universitat de València (defensa de la tesis: 16 de diciembre de 2025), con la calificación de Sobresaliente Cum Laude con Mención Internacional por la tesis \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
         "Mi formación predoctoral se desarrolló bajo la beca FPU (FPU20/05798, Ministerio de Ciencia, Innovación y Universidades, 2021-2025), dentro del proyecto de I+D \"Changing Low Back Pain Employing Virtual Enhanced Reality\", dirigido por la Dra. Rosa Mª Baños Rivera. Desde febrero de 2026 soy investigador contratado en el proyecto DALIA de la Universidad de Sevilla (IP: Octavio Rivera Romero), centrado en la personalización basada en datos de una solución de salud digital para familiares cuidadores de menores con enfermedades crónicas.",
         "Soy autor de 10 artículos en revistas indexadas en JCR (mayoritariamente Q1), primer autor en 2 de ellos, y cuento con más de 20 contribuciones a congresos nacionales e internacionales, incluyendo presentaciones en Estados Unidos, Canadá, Francia, Países Bajos y España.",
-        "Combino este perfil investigador con una formación técnica poco habitual en psicología: soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (2.000h, CEEDCV) y cuento con formación específica en análisis de datos (R, Python, SQL, Tableau, machine learning). He construido AulaMetrics, una plataforma completa en Odoo/Python/PostgreSQL para evaluación psicosocial en centros educativos, validada con orientadoras de centros reales. He realizado estancias de investigación internacionales en la Université du Québec en Outaouais (Canadá) y la Universidade Lusófona (Lisboa, Portugal), y he impartido 90 horas de docencia en la Universitat de València en los Grados de Psicología y Criminología, con evaluaciones del alumnado de 4.77-4.80/5."
+        "Combino este perfil investigador con una formación técnica poco habitual en psicología: soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (nota media: 9, CEEDCV) y cuento con formación específica en análisis de datos (R, Python, SQL, Excel, machine learning). He construido AulaMetrics, una plataforma completa en Odoo/Python/PostgreSQL para evaluación psicosocial en centros educativos, validada con orientadoras de centros reales. He realizado estancias de investigación internacionales en la Université du Québec en Outaouais (Canadá) y la Universidade Lusófona (Lisboa, Portugal), y he impartido 90 horas de docencia en la Universitat de València en los Grados de Psicología y Criminología, con evaluaciones del alumnado de 4.77-4.80/5."
       ],
       "expertise": {
         "title": "Áreas de especialización",
@@ -62,10 +62,10 @@
             "grade": "Sobresaliente Cum Laude con Mención Internacional"
           },
           {
-            "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (2.000h)",
+            "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
             "university": "CEEDCV",
             "year": "",
-            "grade": ""
+            "grade": "Nota media: 9"
           }
         ]
       }
@@ -118,7 +118,7 @@
           "role": "Investigador contratado"
         },
         {
-          "name": "VR-LBP",
+          "name": "CLEVER",
           "fullTitle": "Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema",
           "pi": "Rosa Mª Baños Rivera",
           "institution": "Universitat de València",
@@ -139,16 +139,16 @@
           "duration": "3 meses",
           "dates": "",
           "grantType": "Ayuda complementaria de movilidad FPU 2023",
-          "objectives": "Estancia de investigación internacional realizada durante la formación predoctoral, en el marco del proyecto VR-LBP sobre intervenciones basadas en realidad virtual para el dolor lumbar crónico."
+          "objectives": "Estancia de investigación internacional realizada durante la formación predoctoral, en el marco del proyecto CLEVER sobre intervenciones basadas en realidad virtual para el dolor lumbar crónico."
         },
         {
           "institution": "Universidade Lusófona – Centro Universitário de Lisboa",
           "city": "Lisboa",
           "country": "Portugal",
           "duration": "3 meses",
-          "dates": "3 de marzo de 2025 – 2 de mayo de 2025",
+          "dates": "",
           "grantType": "Ayuda complementaria de movilidad FPU 2024",
-          "objectives": "Estancia de investigación internacional realizada durante la formación predoctoral, en el marco del proyecto VR-LBP sobre intervenciones basadas en realidad virtual para el dolor lumbar crónico."
+          "objectives": "Estancia de investigación internacional realizada durante la formación predoctoral, en el marco del proyecto CLEVER sobre intervenciones basadas en realidad virtual para el dolor lumbar crónico."
         }
       ]
     },
@@ -168,7 +168,7 @@
           "type": "Predoctoral",
           "entity": "Ministerio de Ciencia, Innovación y Universidades",
           "period": "01/12/2021 – 30/11/2025 (4 años)",
-          "description": "Beca predoctoral competitiva para la formación de personal docente e investigador universitario, dentro del proyecto VR-LBP.",
+          "description": "Beca predoctoral competitiva para la formación de personal docente e investigador universitario, dentro del proyecto CLEVER.",
           "amount": "",
           "status": "Completada"
         },
@@ -187,7 +187,7 @@
           "code": "",
           "type": "Movilidad internacional",
           "entity": "Ministerio de Ciencia, Innovación y Universidades",
-          "period": "03/03/2025 – 02/05/2025 (3 meses)",
+          "period": "2025 (3 meses)",
           "description": "Financiación de la estancia de investigación internacional en la Universidade Lusófona, Lisboa, Portugal.",
           "amount": "",
           "status": "Completada"
@@ -469,10 +469,10 @@
             },
             {
               "name": "Tableau",
-              "level": "Intermedio",
+              "level": "Básico",
               "description": "Visualización de datos y dashboards.",
               "training": "DataCamp: Introduction to Tableau",
-              "percentage": 60
+              "percentage": 40
             },
             {
               "name": "Power BI",
@@ -482,11 +482,11 @@
               "percentage": 45
             },
             {
-              "name": "Orange",
+              "name": "Excel",
               "level": "Intermedio",
-              "description": "Machine learning visual, sin código.",
+              "description": "Análisis y gestión de datos, tablas dinámicas y fórmulas avanzadas para reporting.",
               "training": "",
-              "percentage": 60
+              "percentage": 65
             },
             {
               "name": "SPSS",
@@ -696,14 +696,14 @@
         "skills": ["Análisis de datos", "Salud digital", "R y Python", "Colaboración multidisciplinar"]
       },
       {
-        "role": "Investigador Predoctoral (FPU) — Proyecto VR-LBP",
+        "role": "Investigador Predoctoral (FPU) — Proyecto CLEVER",
         "institution": "Universitat de València",
         "status": "Completado",
         "location": "Valencia, España",
         "startDate": "Diciembre 2021",
         "endDate": "Noviembre 2025",
         "duration": "4 años",
-        "description": "Investigador predoctoral bajo beca FPU (FPU20/05798), miembro del equipo del proyecto de I+D \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema\", dirigido por Rosa Mª Baños Rivera. En este periodo se produjeron las 10 publicaciones JCR, más de 20 contribuciones a congresos y la tesis doctoral sobre imagen corporal positiva y dolor lumbar crónico.",
+        "description": "Investigador predoctoral bajo beca FPU (FPU20/05798), miembro del equipo del proyecto de I+D CLEVER — \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema\" —, dirigido por Rosa Mª Baños Rivera. En este periodo se produjeron las 10 publicaciones JCR, más de 20 contribuciones a congresos y la tesis doctoral sobre imagen corporal positiva y dolor lumbar crónico.",
         "responsibilities": [
           "Diseño y análisis estadístico (R) de estudios sobre imagen corporal positiva y dolor crónico",
           "Validación psicométrica de instrumentos de evaluación (p. ej. Functionality Appreciation Scale)",
@@ -712,6 +712,22 @@
           "Estancias de investigación internacionales en Canadá y Portugal"
         ],
         "skills": ["Diseño de RCT", "Validación psicométrica", "R", "Realidad virtual en salud", "Escritura científica"]
+      },
+      {
+        "role": "Consultor Estadístico Independiente",
+        "institution": "Autónomo / Freelance",
+        "status": "En curso",
+        "location": "Remoto",
+        "startDate": "",
+        "endDate": "",
+        "duration": "En paralelo a su trayectoria investigadora",
+        "description": "Trabajo independiente como consultor estadístico, dando soporte en metodología y análisis de datos a equipos de investigación para la elaboración de manuscritos científicos en el ámbito de la salud.",
+        "responsibilities": [
+          "Asesoramiento en diseño estadístico y elección de análisis para manuscritos científicos",
+          "Análisis de datos (R) para estudios en fase de redacción o revisión",
+          "Apoyo en la interpretación y redacción de resultados estadísticos"
+        ],
+        "skills": ["Consultoría estadística", "R", "Metodología de investigación", "Redacción científica"]
       }
     ]
   },
@@ -719,7 +735,7 @@
     "title": "Contacto",
     "subtitle": "Colaboraciones y consultas",
     "contactInfo": {
-      "email": "Angel.zamora@uv.es",
+      "email": "angelzamora1616@gmail.com",
       "emailLabel": "Correo electrónico",
       "location": "Sevilla / Valencia, España",
       "institution": "Universitat de València"
@@ -781,7 +797,7 @@
     },
     "contact": {
       "title": "Contacto",
-      "email": "Angel.zamora@uv.es",
+      "email": "angelzamora1616@gmail.com",
       "institution": "Universitat de València",
       "location": "Sevilla / Valencia, España"
     },

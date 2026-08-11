@@ -136,6 +136,16 @@ export default function PublicationsPage() {
 
                   <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mt-4 text-sm">
                     <Badge variant="outline">{pub.yearLabel ?? pub.year}</Badge>
+                    {pub.doi && (
+                      <a
+                        href={pub.doi}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:underline underline-offset-4"
+                      >
+                        DOI ↗
+                      </a>
+                    )}
                   </div>
 
                   <Separator className="my-4" />

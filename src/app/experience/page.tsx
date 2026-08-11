@@ -55,9 +55,11 @@ export default function ExperiencePage() {
                   <div className="flex items-center gap-2">
                     <MapPin size={14} /> {exp.location}
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar size={14} /> {exp.startDate} - {exp.endDate}
-                  </div>
+                  {(exp.startDate || exp.endDate) && (
+                    <div className="flex items-center gap-2">
+                      <Calendar size={14} /> {exp.startDate} - {exp.endDate}
+                    </div>
+                  )}
                   {exp.duration && (
                     <div className="flex items-center gap-2">
                       <Clock size={14} /> {exp.duration}
