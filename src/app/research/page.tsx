@@ -90,12 +90,14 @@ export default function ResearchPage() {
                   <CardDescription>{project.fullTitle}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm">
-                  <div className="flex items-start gap-3">
-                    <User className="w-4 h-4 mt-1 text-accent flex-shrink-0" />
-                    <span>
-                      <strong>PI:</strong> {project.pi}
-                    </span>
-                  </div>
+                  {project.pi && (
+                    <div className="flex items-start gap-3">
+                      <User className="w-4 h-4 mt-1 text-accent flex-shrink-0" />
+                      <span>
+                        <strong>PI:</strong> {project.pi}
+                      </span>
+                    </div>
+                  )}
                   <div className="flex items-start gap-3">
                     <Building className="w-4 h-4 mt-1 text-accent flex-shrink-0" />
                     <span>

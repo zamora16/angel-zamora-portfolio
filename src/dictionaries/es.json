@@ -14,7 +14,7 @@
     "name": "Ángel Zamora Martínez",
     "title": "Doctor en Psicología · Analista de Datos e Investigador",
     "tagline": "Investigador y analista de datos — convirtiendo datos de salud y comportamiento en evidencia accionable.",
-    "affiliation": "Universidad de Sevilla · Proyecto DALIA",
+    "affiliation": "Adhera Health · Proyecto DALIA",
     "buttons": {
       "publications": "Ver Publicaciones",
       "projects": "Ver Proyectos"
@@ -23,7 +23,7 @@
       "title": "Sobre mí",
       "paragraphs": [
         "Doctor en Psicología por la Universitat de València (defensa de la tesis: 16 de diciembre de 2025), con la calificación de Sobresaliente Cum Laude con Mención Internacional por la tesis \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
-        "Mi formación predoctoral se desarrolló bajo la beca FPU (FPU20/05798, Ministerio de Ciencia, Innovación y Universidades, 2021-2025), dentro del proyecto de I+D \"Changing Low Back Pain Employing Virtual Enhanced Reality\", dirigido por la Dra. Rosa Mª Baños Rivera. Desde febrero de 2026 soy investigador contratado en el proyecto DALIA de la Universidad de Sevilla (IP: Octavio Rivera Romero), centrado en la personalización basada en datos de una solución de salud digital para familiares cuidadores de menores con enfermedades crónicas.",
+        "Mi formación predoctoral se desarrolló bajo la beca FPU (FPU20/05798, Ministerio de Ciencia, Innovación y Universidades, 2021-2025), dentro del proyecto de I+D CLEVER (\"Changing Low Back Pain Employing Virtual Enhanced Reality\"), dirigido por la Dra. Rosa Mª Baños Rivera. Desde febrero de 2026 soy investigador postdoctoral en salud digital en Adhera Health (Valencia), dentro del proyecto DALIA, centrado en la personalización basada en datos de una solución de salud digital para familiares cuidadores de menores con enfermedades crónicas.",
         "Soy autor de 10 artículos en revistas indexadas en JCR (mayoritariamente Q1), primer autor en 2 de ellos, y cuento con más de 20 contribuciones a congresos nacionales e internacionales, incluyendo presentaciones en Estados Unidos, Canadá, Francia, Países Bajos y España.",
         "Combino este perfil investigador con una formación técnica poco habitual en psicología: soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (nota media: 9, CEEDCV) y cuento con formación específica en análisis de datos (R, Python, SQL, Excel, machine learning). He construido AulaMetrics, una plataforma completa en Odoo/Python/PostgreSQL para evaluación psicosocial en centros educativos, validada con orientadoras de centros reales. He realizado estancias de investigación internacionales en la Université du Québec en Outaouais (Canadá) y la Universidade Lusófona (Lisboa, Portugal), y he impartido 90 horas de docencia en la Universitat de València en los Grados de Psicología y Criminología, con evaluaciones del alumnado de 4.77-4.80/5."
       ],
@@ -111,11 +111,11 @@
         {
           "name": "DALIA",
           "fullTitle": "Data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions",
-          "pi": "Octavio Rivera Romero",
-          "institution": "Universidad de Sevilla",
-          "entity": "Ministerio de Ciencia, Innovación y Universidades",
+          "pi": "",
+          "institution": "Adhera Health",
+          "entity": "Valencia, España",
           "period": "Desde febrero de 2026",
-          "role": "Investigador contratado"
+          "role": "Investigador postdoctoral"
         },
         {
           "name": "CLEVER",
@@ -590,6 +590,27 @@
               "description": "Diseño y evaluación de intervenciones basadas en realidad virtual en salud.",
               "training": "",
               "percentage": 80
+            },
+            {
+              "name": "Análisis cualitativo asistido por IA",
+              "level": "Intermedio",
+              "description": "Cribado y análisis de contenido cualitativo (p. ej. datos de Reddit/YouTube) con apoyo de IA, en Adhera Health.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "Diseño y redacción de proyectos I+D",
+              "level": "Intermedio",
+              "description": "Redacción y diseño de propuestas de proyectos de investigación y desarrollo.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "Facilitación de workshops participativos",
+              "level": "Intermedio",
+              "description": "Organización de workshops con dinámicas de co-creación con equipos multidisciplinares.",
+              "training": "",
+              "percentage": 65
             }
           ]
         }
@@ -680,20 +701,25 @@
     "skillsLabel": "Competencias",
     "experiences": [
       {
-        "role": "Investigador Contratado — Proyecto DALIA",
-        "institution": "Universidad de Sevilla",
+        "role": "Investigador en Salud Digital · Analista de Datos — Proyecto DALIA",
+        "institution": "Adhera Health",
         "status": "En curso",
-        "location": "Sevilla, España",
+        "location": "Valencia, España",
         "startDate": "Febrero 2026",
         "endDate": "Actualidad",
-        "duration": "",
-        "description": "Investigador contratado en DALIA, proyecto sobre personalización basada en datos de una solución de salud digital para familiares cuidadores de menores con enfermedades crónicas, dirigido por Octavio Rivera Romero y financiado por el Ministerio de Ciencia, Innovación y Universidades.",
+        "duration": "Contrato postdoctoral",
+        "description": "Investigador postdoctoral en salud digital en Adhera Health, dentro del proyecto DALIA (personalización basada en datos de una solución de salud digital para familiares cuidadores de menores con enfermedades crónicas). Combino ingeniería de datos con IA, evaluación de usabilidad y resultados clínicos, y diseño de investigación aplicada.",
         "responsibilities": [
-          "Recogida y análisis de datos para la personalización de una intervención de salud digital",
-          "Colaboración en un equipo de investigación multidisciplinar",
-          "Contribución al diseño de los componentes basados en datos de la solución de salud digital"
+          "Diseño de un pipeline completo de extracción de datos de Reddit y YouTube: recolección, limpieza, cribado de contenido útil asistido por IA y formateo final, con metodología reproducible y documentada",
+          "Construcción de una base de datos estructurada y anonimizada, lista para el entrenamiento de modelos de machine learning",
+          "Automatización del proceso de limpieza de datos mediante scripts reutilizables, reduciendo de forma notable el tiempo de procesamiento manual",
+          "Desarrollo de dashboards interactivos para visualizar y analizar métricas clave en tiempo real",
+          "Análisis de usabilidad, aceptabilidad y resultados clínicos de la solución digital de salud, trasladando los hallazgos a propuestas de mejora del producto",
+          "Análisis de datos cualitativos asistido por IA, y redacción y diseño de propuestas de proyectos de investigación y desarrollo",
+          "Organización de workshops participativos con dinámicas de co-creación",
+          "Colaboración con equipos multidisciplinares de producto e investigación en España y EE. UU."
         ],
-        "skills": ["Análisis de datos", "Salud digital", "R y Python", "Colaboración multidisciplinar"]
+        "skills": ["Pipelines de datos", "Python", "IA aplicada", "Dashboards", "Investigación de usabilidad", "Análisis cualitativo", "Diseño de proyectos I+D", "Co-creación"]
       },
       {
         "role": "Investigador Predoctoral (FPU) — Proyecto CLEVER",
@@ -737,7 +763,7 @@
     "contactInfo": {
       "email": "angelzamora1616@gmail.com",
       "emailLabel": "Correo electrónico",
-      "location": "Sevilla / Valencia, España",
+      "location": "Valencia, España",
       "institution": "Universitat de València"
     },
     "form": {
@@ -799,7 +825,7 @@
       "title": "Contacto",
       "email": "angelzamora1616@gmail.com",
       "institution": "Universitat de València",
-      "location": "Sevilla / Valencia, España"
+      "location": "Valencia, España"
     },
     "social": {
       "title": "Perfiles sociales",

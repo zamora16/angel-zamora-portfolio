@@ -14,7 +14,7 @@
     "name": "Ángel Zamora Martínez",
     "title": "PhD in Psychology · Data Analyst & Researcher",
     "tagline": "Researcher and data analyst — turning health and behavioral data into actionable evidence.",
-    "affiliation": "Universidad de Sevilla · DALIA Project",
+    "affiliation": "Adhera Health · DALIA Project",
     "buttons": {
       "publications": "View Publications",
       "projects": "View Projects"
@@ -23,7 +23,7 @@
       "title": "About me",
       "paragraphs": [
         "PhD in Psychology from the Universitat de València (thesis defended December 16, 2025), awarded the highest distinction of Summa Cum Laude with International Mention for the dissertation \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
-        "My predoctoral training was funded by an FPU grant (FPU20/05798, Ministry of Science, Innovation and Universities, 2021-2025) within the R&D project \"Changing Low Back Pain Employing Virtual Enhanced Reality,\" led by Dr. Rosa Mª Baños Rivera. Since February 2026 I have been a contracted researcher on the DALIA project at the Universidad de Sevilla (PI: Octavio Rivera Romero), on data-driven personalization of a digital health solution for family caregivers of children with chronic conditions.",
+        "My predoctoral training was funded by an FPU grant (FPU20/05798, Ministry of Science, Innovation and Universities, 2021-2025) within the R&D project CLEVER (\"Changing Low Back Pain Employing Virtual Enhanced Reality\"), led by Dr. Rosa Mª Baños Rivera. Since February 2026 I have been a postdoctoral researcher in digital health at Adhera Health (Valencia), on the DALIA project, focused on data-driven personalization of a digital health solution for family caregivers of children with chronic conditions.",
         "I am the author of 10 articles in JCR-indexed journals (mostly Q1), first author on 2 of them, and I have contributed to more than 20 national and international conferences — including presentations in the United States, Canada, France, the Netherlands and Spain.",
         "I combine this research profile with an uncommon technical background for psychology: I hold a Higher Technician qualification in Multiplatform Application Development (average grade: 9, CEEDCV) and specific training in data analysis (R, Python, SQL, Excel, machine learning). I built AulaMetrics, a full Odoo/Python/PostgreSQL platform for psychosocial assessment in schools, validated with real school counsellors. I completed international research stays at the Université du Québec en Outaouais (Canada) and Universidade Lusófona (Lisbon, Portugal), and taught 90 hours at the Universitat de València in Psychology and Criminology, with student evaluations of 4.77-4.80/5."
       ],
@@ -111,11 +111,11 @@
         {
           "name": "DALIA",
           "fullTitle": "Data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions",
-          "pi": "Octavio Rivera Romero",
-          "institution": "Universidad de Sevilla",
-          "entity": "Ministry of Science, Innovation and Universities",
+          "pi": "",
+          "institution": "Adhera Health",
+          "entity": "Valencia, Spain",
           "period": "Since February 2026",
-          "role": "Contracted researcher"
+          "role": "Postdoctoral researcher"
         },
         {
           "name": "CLEVER",
@@ -590,6 +590,27 @@
               "description": "Design and evaluation of virtual-reality-based interventions in health.",
               "training": "",
               "percentage": 80
+            },
+            {
+              "name": "AI-assisted qualitative analysis",
+              "level": "Intermediate",
+              "description": "Screening and analysis of qualitative content (e.g. Reddit/YouTube data) with AI support, at Adhera Health.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "R&D project design & writing",
+              "level": "Intermediate",
+              "description": "Writing and design of research and development project proposals.",
+              "training": "",
+              "percentage": 65
+            },
+            {
+              "name": "Participatory workshop facilitation",
+              "level": "Intermediate",
+              "description": "Organizing workshops with co-creation dynamics for multidisciplinary teams.",
+              "training": "",
+              "percentage": 65
             }
           ]
         }
@@ -680,20 +701,25 @@
     "skillsLabel": "Skills",
     "experiences": [
       {
-        "role": "Contracted Researcher — DALIA Project",
-        "institution": "Universidad de Sevilla",
+        "role": "Digital Health Researcher · Data Analyst — DALIA Project",
+        "institution": "Adhera Health",
         "status": "Ongoing",
-        "location": "Sevilla, Spain",
+        "location": "Valencia, Spain",
         "startDate": "February 2026",
         "endDate": "Present",
-        "duration": "",
-        "description": "Contracted researcher on DALIA, a project on data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions, led by Octavio Rivera Romero and funded by the Ministry of Science, Innovation and Universities.",
+        "duration": "Postdoctoral contract",
+        "description": "Postdoctoral researcher in digital health at Adhera Health, within the DALIA project (data-driven personalization of a digital health solution to support family caregivers of children with chronic conditions). I combine AI-assisted data engineering, usability and clinical-outcome evaluation, and applied research design.",
         "responsibilities": [
-          "Data collection and analysis for the personalization of a digital health intervention",
-          "Collaboration within a multidisciplinary research team",
-          "Contribution to the design of data-driven components of the digital health solution"
+          "Designed a complete data extraction pipeline from Reddit and YouTube: collection, cleaning, AI-assisted screening of useful content, and final formatting, with a reproducible and documented methodology",
+          "Built a structured, anonymized database ready for machine learning model training",
+          "Automated the data-cleaning process with reusable scripts, notably reducing manual processing time",
+          "Developed interactive dashboards for the team to visualize and analyze key metrics in real time",
+          "Analyze usability, acceptability and clinical outcomes of a digital health solution, translating findings into product improvement proposals",
+          "AI-assisted qualitative data analysis, and writing and design of research & development project proposals",
+          "Organized participatory workshops using co-creation dynamics",
+          "Collaborate with multidisciplinary product and research teams in Spain and the US"
         ],
-        "skills": ["Data analysis", "Digital health", "R & Python", "Multidisciplinary collaboration"]
+        "skills": ["Data pipelines", "Python", "Applied AI", "Dashboards", "Usability research", "Qualitative analysis", "R&D project design", "Co-creation"]
       },
       {
         "role": "Predoctoral Researcher (FPU) — CLEVER Project",
@@ -737,7 +763,7 @@
     "contactInfo": {
       "email": "angelzamora1616@gmail.com",
       "emailLabel": "Email",
-      "location": "Sevilla / Valencia, Spain",
+      "location": "Valencia, Spain",
       "institution": "Universitat de València"
     },
     "form": {
@@ -799,7 +825,7 @@
       "title": "Contact",
       "email": "angelzamora1616@gmail.com",
       "institution": "Universitat de València",
-      "location": "Sevilla / Valencia, Spain"
+      "location": "Valencia, Spain"
     },
     "social": {
       "title": "Social profiles",
