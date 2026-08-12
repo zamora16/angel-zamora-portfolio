@@ -3,10 +3,8 @@
 import { useLanguage } from '@/lib/hooks/use-language';
 import { Button } from '../ui/button';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ArrowUp, GraduationCap, Linkedin, Orbit } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import logoImg from '@/assets/logo.png';
 
 const iconMap: { [key: string]: React.ElementType } = {
   'orcid': Orbit,
@@ -29,7 +27,6 @@ export function Footer() {
           {/* About */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
-              <Image src={logoImg} alt="Ángel Zamora" width={32} height={32} className="h-8 w-8 object-contain" />
               <span>Ángel Zamora Martínez</span>
             </Link>
             <p className="text-foreground/70">{footerDict.privacy.text}</p>
