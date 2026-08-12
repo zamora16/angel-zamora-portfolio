@@ -3,7 +3,7 @@
 import { useLanguage } from '@/lib/hooks/use-language';
 import { Button } from '../ui/button';
 import Link from 'next/link';
-import { Logo } from '../icons';
+import Image from 'next/image';
 import { ArrowUp, GraduationCap, Linkedin, Orbit } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -28,7 +28,7 @@ export function Footer() {
           {/* About */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
-              <Logo className="h-6 w-6" />
+              <Image src="/logo.png" alt="Ángel Zamora" width={32} height={32} className="h-8 w-8 object-contain" />
               <span>Ángel Zamora Martínez</span>
             </Link>
             <p className="text-foreground/70">{footerDict.privacy.text}</p>

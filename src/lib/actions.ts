@@ -1,8 +1,8 @@
-'use server';
-
 import { z } from 'zod';
 
-// Very basic server-side validation schema
+// Client-side only: this site is statically exported (GitHub Pages has no
+// server runtime), so this mock submission just validates and logs — no
+// email is actually sent. Wire up a real backend (e.g. Formspree) if needed.
 const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters long.'),
   email: z.string().email('Please enter a valid email address.'),

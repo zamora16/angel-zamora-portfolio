@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from '@/components/ui/sheet';
-import { Logo } from '../icons';
 import { LanguageSwitcher } from './language-switcher';
 
 interface MobileNavProps {
@@ -31,7 +31,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
               className="flex items-center gap-2 font-headline text-lg font-bold text-primary"
               onClick={() => setIsOpen(false)}
             >
-              <Logo className="h-6 w-6" />
+              <Image src="/logo.png" alt="Ángel Zamora" width={28} height={28} className="h-7 w-7 object-contain" />
               <span>Ángel Zamora</span>
             </Link>
           </SheetTitle>

@@ -1,11 +1,11 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from '@/lib/hooks/use-language';
 import { LanguageSwitcher } from './language-switcher';
 import { MobileNav } from './mobile-nav';
-import { Logo } from '@/components/icons';
 import { cn } from '@/lib/utils';
 import { useEffect, useState } from 'react';
 
@@ -45,7 +45,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
-            <Logo className="h-6 w-6" />
+            <Image src="/logo.png" alt="Ángel Zamora" width={32} height={32} className="h-8 w-8 object-contain" priority />
             <span>Ángel Zamora</span>
           </Link>
 
