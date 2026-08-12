@@ -6,7 +6,6 @@ const REPO_NAME = 'angel-zamora-portfolio';
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: `/${REPO_NAME}`,
-  assetPrefix: `/${REPO_NAME}/`,
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: false,

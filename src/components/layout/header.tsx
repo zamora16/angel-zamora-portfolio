@@ -8,6 +8,7 @@ import { LanguageSwitcher } from './language-switcher';
 import { MobileNav } from './mobile-nav';
 import { cn } from '@/lib/utils';
 import { useEffect, useState } from 'react';
+import logoImg from '@/assets/logo.png';
 
 export function Header() {
   const { dictionary } = useLanguage();
@@ -45,7 +46,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
-            <Image src="/logo.png" alt="Ángel Zamora" width={32} height={32} className="h-8 w-8 object-contain" priority />
+            <Image src={logoImg} alt="Ángel Zamora" width={32} height={32} className="h-8 w-8 object-contain" priority />
             <span>Ángel Zamora</span>
           </Link>
 

@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/lib/hooks/use-language';
+import profileImg from '@/assets/profile.png';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { CheckCircle, GraduationCap } from 'lucide-react';
@@ -79,7 +80,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <Image
-                src="/angel-zamora.png"
+                src={profileImg}
                 alt="Ángel Zamora Martínez"
                 width={400}
                 height={400}
