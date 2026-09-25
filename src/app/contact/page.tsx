@@ -1,7 +1,6 @@
 'use client';
 
 import { useLanguage } from '@/lib/hooks/use-language';
-import { ContactForm } from '@/components/contact-form';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CheckCircle, GraduationCap, Orbit, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -39,19 +38,8 @@ export default function ContactPage() {
         <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto">{pageDict.subtitle}</p>
       </motion.div>
 
-      <div className="grid md:grid-cols-5 gap-12">
-        <motion.div variants={FADE_IN_VARIANTS} className="md:col-span-3">
-          <Card className="h-full">
-            <CardHeader>
-              <CardTitle className="font-headline text-2xl">{pageDict.form.title}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ContactForm />
-            </CardContent>
-          </Card>
-        </motion.div>
-
-        <div className="md:col-span-2 space-y-8">
+      <div className="max-w-2xl mx-auto">
+        <div className="space-y-8">
           <motion.div variants={FADE_IN_VARIANTS} transition={{ delay: 0.2 }}>
             <Card>
               <CardHeader>
