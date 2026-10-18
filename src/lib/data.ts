@@ -5,6 +5,23 @@ import type { Publication } from './types';
 // no DOI/author list is fabricated for entries where it isn't confirmed.
 export const publications: Publication[] = [
   {
+    id: 'pub11',
+    type: 'article',
+    year: 2026,
+    authors: 'Zamora, Á.; Desdentado, L.; Cerea, S.; Herrero, R.; Baños, R.',
+    title: 'Network Structures of Eating Disorder Symptoms and Protective Factors in Men and Women',
+    journal: 'Body Image (Elsevier)',
+    volume: '59',
+    pages: '102198',
+    doi: 'https://doi.org/10.1016/j.bodyim.2026.102198',
+    quartile: 'Q1',
+    position: '1/5',
+    impactFactor: '6.0',
+    firstAuthor: true,
+    authorPosition: 1,
+    totalAuthors: 5,
+  },
+  {
     id: 'pub1',
     type: 'article',
     year: 2026,

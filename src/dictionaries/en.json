@@ -24,7 +24,7 @@
       "paragraphs": [
         "PhD in Psychology from the Universitat de València (thesis defended December 16, 2025), awarded the highest distinction of Summa Cum Laude with International Mention for the dissertation \"Chronic low back pain through the lens of positive body image: The role of functionality appreciation.\"",
         "My predoctoral training was funded by an FPU grant (FPU20/05798, Ministry of Science, Innovation and Universities, 2021-2025) within the R&D project CLEVER (\"Changing Low Back Pain Employing Virtual Enhanced Reality\"), led by Dr. Rosa Mª Baños Rivera. Since February 2026 I have been a postdoctoral researcher in digital health at Adhera Health (Valencia), on the DALIA project, focused on data-driven personalization of a digital health solution for family caregivers of children with chronic conditions.",
-        "I am the author of 10 articles in JCR-indexed journals (mostly Q1), first author on 2 of them, and I have contributed to more than 20 national and international conferences — including presentations in the United States, Canada, France, the Netherlands and Spain.",
+        "I am the author of 11 articles in JCR-indexed journals (mostly Q1), first author on 3 of them, and I have contributed to more than 20 national and international conferences — including presentations in the United States, Canada, France, the Netherlands and Spain.",
         "I combine this research profile with an uncommon technical background for psychology: I hold a Higher Technician qualification in Multiplatform Application Development (average grade: 9, CEEDCV) and specific training in data analysis (R, Python, SQL, Excel, machine learning). I built AulaMetrics, a full Odoo/Python/PostgreSQL platform for psychosocial assessment in schools, validated with real school counsellors. I completed international research stays at the Université du Québec en Outaouais (Canada) and Universidade Lusófona (Lisbon, Portugal), and taught 90 hours at the Universitat de València in Psychology and Criminology, with student evaluations of 4.77-4.80/5."
       ],
       "expertise": {
@@ -213,7 +213,7 @@
       "q1": "In Q1 journals",
       "firstAuthor": "As 1st author",
       "avgImpact": "Avg. Impact Factor",
-      "avgImpactValue": "≈4.7"
+      "avgImpactValue": "≈4.9"
     },
     "filters": {
       "search": "Search",
@@ -227,6 +227,10 @@
       "authorsLabel": "Authors"
     },
     "list": [
+      {
+        "id": "pub11",
+        "title": "Network Structures of Eating Disorder Symptoms and Protective Factors in Men and Women"
+      },
       {
         "id": "pub1",
         "title": "Internet-Based Attachment-Based Compassion Therapy for Adults With Chronic Medical Conditions: Randomized Controlled Trial"
@@ -585,6 +589,13 @@
               "percentage": 85
             },
             {
+              "name": "Network analysis",
+              "level": "Intermediate",
+              "description": "Psychological network models of symptoms and protective factors; first author on a network-analysis JCR article (Body Image).",
+              "training": "",
+              "percentage": 70
+            },
+            {
               "name": "Digital & VR health interventions",
               "level": "Advanced",
               "description": "Design and evaluation of virtual-reality-based interventions in health.",
@@ -636,12 +647,12 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Applied data engineering: from data collection to decision-making",
+    "subtitle": "Platforms, tools and open-source projects at the intersection of data, health and education",
     "items": [
       {
         "flagshipLabel": "Flagship Project",
         "name": "AulaMetrics",
-        "tagline": "A full psychosocial assessment and educational data analytics platform for schools, built on Odoo.",
+        "tagline": "A psychosocial assessment and data analytics platform for schools, surrounded by an open ecosystem of free educational resources.",
         "problem": {
           "title": "The problem",
           "description": "Spanish schools routinely need to run standardized psychosocial assessments (well-being, risk indicators) but typically lack a system to schedule them, collect anonymous responses at scale, analyze results, and flag risk automatically — counsellors are left doing this manually with spreadsheets."
@@ -661,7 +672,10 @@
             "Bootstrap 5",
             "QWeb",
             "HTML5 / CSS3 / JS",
-            "Docker Compose"
+            "Docker Compose",
+            "Static web (HTML/CSS/JS, Vercel)",
+            "Python (PDF/DOCX generation)",
+            "Google Search Console"
           ]
         },
         "features": [
@@ -684,13 +698,409 @@
             "icon": "deployment",
             "title": "Production-ready deployment",
             "description": "Containerized with Docker Compose (Odoo + PostgreSQL) on a Linux server, with a documented production plan including an Nginx reverse proxy and HTTPS."
+          },
+          {
+            "icon": "tools",
+            "title": "Resources built like a product",
+            "description": "Printable worksheets are defined once from a block-based system and generated as both PDF and Word with Python; 238 official protocols are searchable by autonomous community and topic; every tool is client-side only."
+          },
+          {
+            "icon": "book",
+            "title": "Open, citable content",
+            "description": "Guides cite the regulations (LOMLOE and its royal decrees) and the scientific evidence, and flag where rules change by region. Protocols cover the 17 autonomous communities plus Ceuta and Melilla."
           }
         ],
         "dataAnalystNote": {
           "title": "Why this matters for data analysis",
-          "description": "AulaMetrics is an end-to-end applied data engineering project — from the data model and collection to the analytics engine and visualization — built on a domain (psychosocial well-being in schools) directly connected to my research specialty. It reflects the same pipeline thinking I apply in quantitative research, taken all the way to production software."
+          "description": "AulaMetrics is end-to-end applied data engineering: from the data model and collection to the analytics engine and visualization, built on a domain (psychosocial well-being in schools) directly connected to my research specialty. The open website adds the other half of a data practitioner's work: understanding who the users are, publishing source-cited content and measuring what works. It reflects the same pipeline thinking I apply in quantitative research, taken all the way to production software and a real audience."
         },
-        "credit": "Final Degree Project (Higher Technician in Multiplatform Application Development, CEEDCV). Supervised by Alfredo Oltra Orengo."
+        "credit": "Designed and built entirely by me. The platform began as my Final Degree Project (Higher Technician in Multiplatform Application Development, CEEDCV), supervised by Alfredo Oltra Orengo.",
+        "id": "aulametrics",
+        "links": [
+          {
+            "label": "aulametrics.es",
+            "url": "https://www.aulametrics.es/"
+          },
+          {
+            "label": "Platform for schools",
+            "url": "https://www.aulametrics.es/plataforma/"
+          },
+          {
+            "label": "GitHub (Odoo module)",
+            "url": "https://github.com/zamora16/aula_metrics"
+          }
+        ],
+        "ecosystem": {
+          "title": "More than a system: a whole ecosystem of value",
+          "intro": "AulaMetrics started as a platform for schools and has grown into a project with two connected halves: the product for centres, and a public website that gives teachers, tutors, counsellors and families useful resources every day, for free.",
+          "parts": [
+            {
+              "icon": "school",
+              "title": "Platform for schools",
+              "description": "Scheduling and anonymous collection of standardized questionnaires, automatic scoring against official norms, risk alerts, case follow-up and role-based analytics down to the individual student profile.",
+              "link": {
+                "label": "See the platform",
+                "url": "https://www.aulametrics.es/plataforma/"
+              }
+            },
+            {
+              "icon": "globe",
+              "title": "Free educational resources",
+              "description": "An open website for teaching staff, tutors, counselling teams and families. No registration, openly licensed (CC BY-NC-SA 4.0), with regulations and evidence cited. The tools run in the browser, so student data never reaches a server.",
+              "stats": [
+                {
+                  "value": "14",
+                  "label": "tools"
+                },
+                {
+                  "value": "19",
+                  "label": "guides and banks"
+                },
+                {
+                  "value": "238",
+                  "label": "official protocols"
+                },
+                {
+                  "value": "22",
+                  "label": "printable worksheets"
+                }
+              ],
+              "link": {
+                "label": "Visit aulametrics.es",
+                "url": "https://www.aulametrics.es/"
+              }
+            },
+            {
+              "icon": "search",
+              "title": "How the two fit together",
+              "description": "The resources give practitioners daily value and are the way into the project; the platform automates, at scale and with proper data protection, what those tools do by hand. New content is prioritized with Search Console data, so the site grows around what people actually look for."
+            }
+          ]
+        },
+        "galleryTitle": "Screenshots",
+        "galleries": [
+          {
+            "title": "The platform",
+            "images": [
+              {
+                "image": "am-dashboard",
+                "caption": "Evaluations dashboard with live participation rates and active alerts."
+              },
+              {
+                "image": "am-analytics",
+                "caption": "Results by group for each questionnaire (SDQ), classified with the official norms: normal, borderline, abnormal."
+              },
+              {
+                "image": "am-wordcloud",
+                "caption": "Qualitative analysis: word cloud of the open-ended answers."
+              },
+              {
+                "image": "am-profile",
+                "caption": "Student profile: longitudinal history of evaluations, scores and participation."
+              },
+              {
+                "image": "am-cases",
+                "caption": "Case management on a Kanban board, by stage of the counselling process."
+              },
+              {
+                "image": "am-alerts",
+                "caption": "Automatic alerts triggered by configurable score thresholds."
+              },
+              {
+                "image": "am-student-form",
+                "caption": "Anonymous student questionnaire, opened with a unique token."
+              }
+            ]
+          },
+          {
+            "title": "Free resources website",
+            "images": [
+              {
+                "image": "amweb-home",
+                "caption": "Home of aulametrics.es: one search box across tools, guides and protocols."
+              },
+              {
+                "image": "amweb-sociogram",
+                "caption": "Online sociogram generator, which runs entirely in the browser."
+              },
+              {
+                "image": "amweb-protocols",
+                "caption": "Search of official protocols by autonomous community and topic."
+              },
+              {
+                "image": "amweb-bank",
+                "caption": "Tutoring activities bank, filterable by stage, objective and duration."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "unmasking-gambling",
+        "flagshipLabel": "Data journalism · Open source",
+        "name": "Unmasking Gambling",
+        "tagline": "Interactive simulations and real-data analysis on the mathematics of gambling, in Spanish and English.",
+        "links": [
+          {
+            "label": "Live site (ES)",
+            "url": "https://zamora16.github.io/unmasking-gambling/"
+          },
+          {
+            "label": "Live site (EN)",
+            "url": "https://zamora16.github.io/unmasking-gambling/en/"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/zamora16/unmasking-gambling"
+          }
+        ],
+        "problem": {
+          "title": "The problem",
+          "description": "Most prevention messages say that gambling is risky, but rarely show why. The evidence that explains it (house edge, variance, bookmaker margins) sits in technical sources that few people read."
+        },
+        "solution": {
+          "title": "The solution",
+          "description": "A bilingual site where visitors run the simulations themselves and check real data. Every page has a plain mode (ideas without jargon) and a technical mode that reveals the formulas, statistical methods and code behind each chart, so it works for the general public and for analysts alike."
+        },
+        "stack": {
+          "title": "Tech stack",
+          "technologies": [
+            "Astro 5",
+            "React 19",
+            "TypeScript",
+            "d3 (scales and shapes)",
+            "Web Workers",
+            "Python (pandas, SciPy)",
+            "Vitest",
+            "GitHub Actions / Pages",
+            "satori (share images)"
+          ]
+        },
+        "features": [
+          {
+            "icon": "dice",
+            "title": "Ruin Lab: Monte Carlo in the browser",
+            "description": "Simulates thousands of players at once in a Web Worker and shows how the house edge wins over time, with percentile bands, Kaplan–Meier survival curves and gambler's-ruin results."
+          },
+          {
+            "icon": "chart",
+            "title": "Do the odds tell the truth?",
+            "description": "A reproducible Python pipeline over 235,796 football matches (2000–2026) with real bookmaker odds: overround removal (proportional, power, Shin), calibration with Wilson intervals, favourite–longshot bias with bootstrap CIs, strategy backtests and an out-of-sample ordinal logit comparing Elo with the market."
+          },
+          {
+            "icon": "database",
+            "title": "Official market data, every figure sourced",
+            "description": "Dashboard of Spain's online gambling market (revenue, hold, marketing, bonuses, prevalence among teenagers and adults) built from official sources (DGOJ, Ministry of Health), with each figure linked to its origin."
+          },
+          {
+            "icon": "security",
+            "title": "Prevention tools that stay private",
+            "description": "Exact odds for roulette, slots, lotteries and sports betting, plus a guided path to a personal plan with a validated screening (PGSI) and a printable plan. Nothing leaves the browser."
+          },
+          {
+            "icon": "flask",
+            "title": "Tested maths",
+            "description": "The calculation library is pure TypeScript, covered by Vitest tests for exact edges, gambler's ruin, Kaplan–Meier, margin-removal methods, slot RTP and volatility, lottery odds and the PGSI and plan engines."
+          },
+          {
+            "icon": "architecture",
+            "title": "Hand-built, accessible charts",
+            "description": "SVG charts built on d3 scales, with tooltips, a table view and dark mode; every page gets its own social-share image generated at build time."
+          }
+        ],
+        "galleryTitle": "Screenshots",
+        "galleries": [
+          {
+            "title": "",
+            "images": [
+              {
+                "image": "ug-en-ruin",
+                "caption": "Ruin Lab: 5,000 simulated players and how their money evolves."
+              },
+              {
+                "image": "ug-en-odds",
+                "caption": "“Do the odds tell the truth?”: key findings from 235,796 matches."
+              },
+              {
+                "image": "ug-en-market",
+                "caption": "Spain's online gambling market: net revenue by year."
+              },
+              {
+                "image": "ug-en-slots",
+                "caption": "Slot machine simulator with a live bankroll chart and paytable."
+              }
+            ]
+          }
+        ],
+        "dataAnalystNote": {
+          "title": "Why this matters for data analysis",
+          "description": "A complete example of statistical communication: from a reproducible analysis pipeline (calibration, bootstrap intervals, out-of-sample validation) to an interface that explains the result to non-specialists, with the technical detail one click away."
+        },
+        "credit": "Personal project, designed and built by me. Released under the MIT licence."
+      },
+      {
+        "id": "nextpaper",
+        "flagshipLabel": "Browser extension · Open source",
+        "name": "NextPaper",
+        "tagline": "Related literature while you read: open any paper and see the most relevant related work, ranked by semantic similarity and grouped by subtopic, all inside your browser.",
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/zamora16/NextPaper"
+          }
+        ],
+        "problem": {
+          "title": "The problem",
+          "description": "Mapping the literature around a paper means chasing references and citations by hand, and the tools that help usually require an account, a server or an AI subscription."
+        },
+        "solution": {
+          "title": "The solution",
+          "description": "A Chrome/Edge extension that analyzes the open article from its references, citing papers, title search and Semantic Scholar recommendations, ranks the candidates by SPECTER2 embedding similarity, groups them into subtopics and provides everything needed to triage, save and cite. No server, no account, no tracking, no AI calls, no cost."
+        },
+        "stack": {
+          "title": "Tech stack",
+          "technologies": [
+            "Plasmo (Manifest V3)",
+            "React 18",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vitest",
+            "Semantic Scholar API",
+            "SPECTER2 embeddings",
+            "Crossref",
+            "Unpaywall"
+          ]
+        },
+        "features": [
+          {
+            "icon": "network",
+            "title": "Clustering written from scratch",
+            "description": "Hierarchical clustering implemented from scratch, with the number of groups chosen by silhouette score; groups are shown only when they can be given an honest name. A “Start here” pick offers a classic, the most relevant review and the most recent work."
+          },
+          {
+            "icon": "flask",
+            "title": "Ranking evaluated, not assumed",
+            "description": "The ranking constants were measured on 51 seed papers across 18 fields (precision and nDCG with bootstrap intervals, paired comparisons against alternative rankings), and the limits of using the citation graph as a proxy for “related” are documented."
+          },
+          {
+            "icon": "security",
+            "title": "Private by architecture",
+            "description": "Everything runs in the browser; each user brings their own free Semantic Scholar key, stored locally and sent only to Semantic Scholar. Where a study design or sample size cannot be established reliably, it shows nothing rather than a guess."
+          },
+          {
+            "icon": "book",
+            "title": "Built for the researcher's workflow",
+            "description": "A local library with reading status, notes and collections; import from BibTeX, RIS or a list of DOIs; citations in APA 7, MLA 9, Chicago, Harvard, IEEE, Vancouver, AMA, BibTeX and RIS enriched with Crossref; daily alerts for new related papers; English and Spanish interface."
+          }
+        ],
+        "galleryTitle": "Screenshots",
+        "galleries": [
+          {
+            "title": "",
+            "images": [
+              {
+                "image": "np-results-en",
+                "caption": "Related papers for the open article, with a “Start here” section."
+              },
+              {
+                "image": "np-timeline-en",
+                "caption": "Timeline of the subtopics: what is classic and what is new."
+              },
+              {
+                "image": "np-saved-en",
+                "caption": "Local library with reading status, notes, collections and citation formats."
+              },
+              {
+                "image": "np-setup-en",
+                "caption": "First-run guide to get your own Semantic Scholar key."
+              }
+            ]
+          }
+        ],
+        "dataAnalystNote": {
+          "title": "Why this matters for data analysis",
+          "description": "It applies embeddings, clustering and offline evaluation under real constraints (API rate limits, noisy metadata, no labelled data) and stays honest about uncertainty, the same habits I bring to quantitative research."
+        },
+        "credit": "Personal project, designed and built by me. Released under the MIT licence."
+      },
+      {
+        "id": "breathy",
+        "flagshipLabel": "Browser extension · Chrome Web Store",
+        "name": "Breathy",
+        "tagline": "A free, private companion for more responsible online gambling: a dragon that follows your session and helps you pause.",
+        "links": [
+          {
+            "label": "Chrome Web Store",
+            "url": "https://chromewebstore.google.com/detail/breathy/mlnepkobdnlamfipojhdldionljfebhe"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/zamora16/breathy-extension"
+          }
+        ],
+        "problem": {
+          "title": "The problem",
+          "description": "Online gambling is built to make people lose track of time. Tools that simply block sites are all-or-nothing, and anything that needs an account means handing sensitive data to a third party."
+        },
+        "solution": {
+          "title": "The solution",
+          "description": "Breathy detects when you enter a casino or betting site and accompanies you instead of judging you: a reflection pause on entry, a dragon mascot whose mood follows your session, guided breathing, reality-check questions, session and daily limits, and an emergency pause that blocks casinos for 24 h, 48 h or 7 days. Everything is stored locally."
+        },
+        "stack": {
+          "title": "Tech stack",
+          "technologies": [
+            "JavaScript (ES modules)",
+            "Chrome Extension Manifest V3",
+            "Content scripts",
+            "chrome.storage / alarms",
+            "WebM mascot animations",
+            "Spanish/English i18n",
+            "Static landing page (HTML + CSS)"
+          ]
+        },
+        "features": [
+          {
+            "icon": "heart",
+            "title": "A mascot that mirrors your session",
+            "description": "Calm at the start, tired halfway through your limit and on alert when you exceed it. One click starts a one-minute guided breathing exercise (4-4, 4-7-8 or 4-4-4)."
+          },
+          {
+            "icon": "timer",
+            "title": "Limits you can't dodge by closing a tab",
+            "description": "Per-session and cumulative daily limits (closing the tab does not reset them), reality-check questions every 10 minutes, and an emergency pause that cannot be switched off until it ends."
+          },
+          {
+            "icon": "search",
+            "title": "Automatic casino detection",
+            "description": "Recognizes the main casinos and betting sites in Spain, Latin America, the UK and internationally; a site that is not recognized can be registered in two clicks."
+          },
+          {
+            "icon": "security",
+            "title": "Private by design",
+            "description": "No sign-up, no accounts, no servers, no analytics: all data stays in the browser, and the stats (today, this week, days-without-gambling streak) are computed locally. Professional help resources are always one click away."
+          }
+        ],
+        "galleryTitle": "Screenshots",
+        "galleries": [
+          {
+            "title": "",
+            "images": [
+              {
+                "image": "br-promo-en",
+                "caption": "The Chrome Web Store listing image: limits, guided breathing, casino blocking and full privacy."
+              },
+              {
+                "image": "br-landing-en",
+                "caption": "Bilingual landing page of the extension."
+              }
+            ]
+          }
+        ],
+        "dataAnalystNote": {
+          "title": "Where my research and engineering meet",
+          "description": "It combines my background in behavioural health with product engineering: brief interventions inspired by responsible-gambling practice (reflection pauses, reality checks, breathing, commitment devices) delivered at the moment of risk, with no data collection at all."
+        },
+        "credit": "Personal project, designed and built by me and published on the Chrome Web Store."
       }
     ]
   },
@@ -729,7 +1139,7 @@
         "startDate": "December 2021",
         "endDate": "November 2025",
         "duration": "4 years",
-        "description": "Predoctoral researcher under an FPU grant (FPU20/05798), member of the research team of the R&D project CLEVER — \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema\" —, led by Rosa Mª Baños Rivera. This period produced the 10 JCR publications, over 20 conference contributions and the doctoral thesis on positive body image and chronic low back pain.",
+        "description": "Predoctoral researcher under an FPU grant (FPU20/05798), member of the research team of the R&D project CLEVER — \"Changing Low Back Pain Employing Virtual Enhanced Reality: Analyzing the Appreciation of Body Functionality and Plasticity of Body Schema\" —, led by Rosa Mª Baños Rivera. This period produced the 11 JCR publications, over 20 conference contributions and the doctoral thesis on positive body image and chronic low back pain.",
         "responsibilities": [
           "Design and statistical analysis (R) of studies on positive body image and chronic pain",
           "Psychometric validation of assessment instruments (e.g. Functionality Appreciation Scale)",
