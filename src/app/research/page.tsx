@@ -9,6 +9,9 @@ import {
   Monitor,
   LifeBuoy,
   ClipboardCheck,
+  HeartPulse,
+  MessagesSquare,
+  ExternalLink,
   Building,
   User,
   Calendar,
@@ -27,7 +30,16 @@ const iconMap: { [key: string]: React.ElementType } = {
   monitor: Monitor,
   suicide: LifeBuoy,
   clipboard: ClipboardCheck,
+  oncology: HeartPulse,
+  qualitative: MessagesSquare,
 };
+
+interface ResearchLine {
+  title: string;
+  description: string;
+  icon: string;
+  link?: { label: string; url: string };
+}
 
 export default function ResearchPage() {
   const { dictionary, language, isTransitioning } = useLanguage();
@@ -57,11 +69,19 @@ export default function ResearchPage() {
       {/* Research Lines Section */}
       <motion.section variants={FADE_IN_VARIANTS} className="mb-20">
         <h2 className="text-3xl font-headline text-primary/90 mb-8 text-center">{pageDict.research_lines.title}</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {pageDict.research_lines.lines.map((line, index) => {
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8">
+          {(pageDict.research_lines.lines as ResearchLine[]).map((line, index) => {
             const Icon = iconMap[line.icon];
             return (
-              <motion.div key={index} custom={index} variants={FADE_IN_VARIANTS}>
+              <motion.div
+                key={index}
+                custom={index}
+                variants={FADE_IN_VARIANTS}
+                className={cn(
+                  'lg:col-span-2',
+                  index === pageDict.research_lines.lines.length - 1 && pageDict.research_lines.lines.length % 3 === 1 && 'lg:col-start-3'
+                )}
+              >
                 <Card className="h-full hover:shadow-lg transition-shadow duration-300">
                   <CardHeader className="flex flex-row items-center gap-4">
                     {Icon && <Icon className="w-8 h-8 text-accent" />}
@@ -69,6 +89,16 @@ export default function ResearchPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-foreground/80">{line.description}</p>
+                    {line.link && (
+                      <a
+                        href={line.link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+                      >
+                        {line.link.label} <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    )}
                   </CardContent>
                 </Card>
               </motion.div>

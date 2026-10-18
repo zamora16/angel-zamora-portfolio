@@ -33,8 +33,10 @@
           "Imagen corporal positiva",
           "Dolor crónico",
           "Realidad virtual en salud",
+          "Oncología y condiciones crónicas",
           "Prevención del suicidio",
           "Validación psicométrica",
+          "Investigación cualitativa y participativa",
           "R y Python",
           "SQL y visualización de datos",
           "Desarrollo Odoo/Python"
@@ -73,7 +75,7 @@
   },
   "research": {
     "title": "Investigación",
-    "subtitle": "Imagen corporal positiva, dolor crónico, salud digital y validación psicométrica",
+    "subtitle": "Imagen corporal positiva, dolor crónico, oncología, salud digital, métodos cualitativos y validación psicométrica",
     "research_lines": {
       "title": "Líneas de Investigación",
       "lines": [
@@ -86,6 +88,15 @@
           "title": "Dolor crónico",
           "description": "Mecanismos psicológicos e intervenciones para el dolor lumbar crónico y otras condiciones de dolor crónico.",
           "icon": "brain"
+        },
+        {
+          "title": "Oncología y condiciones crónicas",
+          "description": "Diseño de proyectos de I+D en oncología y otras condiciones crónicas, y recorrido del paciente en el cuidado del cáncer (ponente en un webinar online de oncología).",
+          "icon": "oncology",
+          "link": {
+            "label": "Ver el webinar",
+            "url": "https://youtu.be/BQZof_UBz6Y"
+          }
         },
         {
           "title": "Realidad virtual en salud",
@@ -101,6 +112,11 @@
           "title": "Validación psicométrica",
           "description": "Validación y adaptación transcultural de instrumentos de evaluación psicológica (invarianza de medida, funcionamiento diferencial del ítem).",
           "icon": "clipboard"
+        },
+        {
+          "title": "Investigación cualitativa y participativa",
+          "description": "Diseño de dinámicas participativas (talleres de cocreación) para generar datos de investigación, y análisis de datos cualitativos, incluido el cribado de contenido online asistido por IA.",
+          "icon": "qualitative"
         }
       ]
     },
@@ -594,6 +610,13 @@
               "description": "Modelos de redes psicológicas de síntomas y factores protectores; primer autor en un artículo JCR de análisis de redes (Body Image).",
               "training": "",
               "percentage": 70
+            },
+            {
+              "name": "Investigación cualitativa y participativa",
+              "level": "Avanzado",
+              "description": "Diseño de dinámicas participativas (talleres de cocreación) para investigación y análisis de datos cualitativos.",
+              "training": "",
+              "percentage": 80
             },
             {
               "name": "Intervenciones digitales y de RV en salud",

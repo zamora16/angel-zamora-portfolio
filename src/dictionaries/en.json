@@ -33,8 +33,10 @@
           "Positive body image",
           "Chronic pain",
           "Virtual reality in health",
+          "Oncology & chronic conditions",
           "Suicide prevention",
           "Psychometric validation",
+          "Qualitative & participatory research",
           "R & Python",
           "SQL & data visualization",
           "Odoo/Python development"
@@ -73,7 +75,7 @@
   },
   "research": {
     "title": "Research",
-    "subtitle": "Positive body image, chronic pain, digital health and psychometric validation",
+    "subtitle": "Positive body image, chronic pain, oncology, digital health, qualitative methods and psychometric validation",
     "research_lines": {
       "title": "Research Lines",
       "lines": [
@@ -86,6 +88,15 @@
           "title": "Chronic pain",
           "description": "Psychological mechanisms and interventions for chronic low back pain and other chronic pain conditions.",
           "icon": "brain"
+        },
+        {
+          "title": "Oncology and chronic conditions",
+          "description": "Design of R&D projects in oncology and other chronic conditions, and the patient journey in cancer care (speaker in an online oncology webinar).",
+          "icon": "oncology",
+          "link": {
+            "label": "Watch the webinar (in Spanish)",
+            "url": "https://youtu.be/BQZof_UBz6Y"
+          }
         },
         {
           "title": "Virtual reality in health",
@@ -101,6 +112,11 @@
           "title": "Psychometric validation",
           "description": "Validation and cross-cultural adaptation of psychological assessment instruments (measurement invariance, differential item functioning).",
           "icon": "clipboard"
+        },
+        {
+          "title": "Qualitative and participatory research",
+          "description": "Design of participatory dynamics (co-creation workshops) to generate research data, and analysis of qualitative data, including AI-assisted screening of online content.",
+          "icon": "qualitative"
         }
       ]
     },
@@ -594,6 +610,13 @@
               "description": "Psychological network models of symptoms and protective factors; first author on a network-analysis JCR article (Body Image).",
               "training": "",
               "percentage": 70
+            },
+            {
+              "name": "Qualitative & participatory research",
+              "level": "Advanced",
+              "description": "Design of participatory dynamics (co-creation workshops) for research and analysis of qualitative data.",
+              "training": "",
+              "percentage": 80
             },
             {
               "name": "Digital & VR health interventions",
